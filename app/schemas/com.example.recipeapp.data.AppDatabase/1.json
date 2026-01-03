@@ -1,0 +1,72 @@
+{
+  "formatVersion": 1,
+  "database": {
+    "version": 1,
+    "identityHash": "910b76a0cb4eb333fcbc62d8ee1a3cc5",
+    "entities": [
+      {
+        "tableName": "recepti",
+        "createSql": "CREATE TABLE IF NOT EXISTS `${TABLE_NAME}` (`id` INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, `naziv` TEXT NOT NULL, `sastojci` TEXT NOT NULL, `postupak` TEXT NOT NULL, `posjete` INTEGER NOT NULL, `favorit` INTEGER NOT NULL, `kategorija` TEXT, `isProban` INTEGER NOT NULL)",
+        "fields": [
+          {
+            "fieldPath": "id",
+            "columnName": "id",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "naziv",
+            "columnName": "naziv",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "sastojci",
+            "columnName": "sastojci",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "postupak",
+            "columnName": "postupak",
+            "affinity": "TEXT",
+            "notNull": true
+          },
+          {
+            "fieldPath": "posjete",
+            "columnName": "posjete",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "favorit",
+            "columnName": "favorit",
+            "affinity": "INTEGER",
+            "notNull": true
+          },
+          {
+            "fieldPath": "kategorija",
+            "columnName": "kategorija",
+            "affinity": "TEXT"
+          },
+          {
+            "fieldPath": "isProban",
+            "columnName": "isProban",
+            "affinity": "INTEGER",
+            "notNull": true
+          }
+        ],
+        "primaryKey": {
+          "autoGenerate": true,
+          "columnNames": [
+            "id"
+          ]
+        }
+      }
+    ],
+    "setupQueries": [
+      "CREATE TABLE IF NOT EXISTS room_master_table (id INTEGER PRIMARY KEY,identity_hash TEXT)",
+      "INSERT OR REPLACE INTO room_master_table (id,identity_hash) VALUES(42, '910b76a0cb4eb333fcbc62d8ee1a3cc5')"
+    ]
+  }
+}

@@ -1,0 +1,980 @@
+[
+  {
+    "naziv": "KOLAČ OD KOKOSA",
+    "sastojci": "1 - MARGARIN ISTOPITI\n5K - ŠEĆERA\n1 - KOKOSOVO BRAŠNO\n1 - PECIVO\nBRAŠNA PO POTREBI",
+    "postupak": "PRAVITI KUGLICE\nKAD SE ISPEKU UVALJATI U ŠEĆER",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADA",
+    "sastojci": "3 ČAŠE - ŠEĆERA\n0,5 - || - MLIJEKA\n0,5 - || - ULJA\n3 - || - BRAŠNA\n3 - || - KAKAOG",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "DVOPEK",
+    "sastojci": "2 - JAJA\n1 - PECIVO\n1 - DVOPEK\n1 ŠOLJA - PAVLAKE\n1 - || - ULJA\n1 - || - ŠEĆERA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ŠAMPITA",
+    "sastojci": "5 - ŽUMANJAKA\n5K - VODE\n5K - ŠEĆERA\n5K - BRAŠNA\n0,5 - PECIVA\n5 - BJELANJAKA\n2K - ŠEĆERA\nU IZMEŠANO SIPATI POLJEV PA PONOVO ZAPEĆ\n15K - ŠEĆERA\n7K - VODE",
+    "postupak": "ISPEĆI KORU BR. 30",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "PATIŠPANJA",
+    "sastojci": "3 - JAJA\n9K - ŠEĆERA\n9K - MLIJEKA\n9K - ULJA\n9K - BRAŠNA\n3K - KAKAO6\n1 - PECIVO\nPOLJEV:\n1 ČAŠA - VODE\n1 - ||- ŠEĆERA\nODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "VOĆNE KOCKE",
+    "sastojci": "3 - JAJA \n12K. - MLIJEKA \n12K. - ULJA \n12K. - ŠEĆERA \n6K. - BRAŠNA \n1 ČAŠA - ORAHA \n1 - PECIVO\nZA NADJEV:\n0,5 kg - JABUKA \n1 - PUDING \n1 - ŠLAG",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "AHMEDIJE",
+    "sastojci": "5 - JAJA \n25k. - ŠEĆERA \n3K. - ULJA \n12K. - MLIJEKA \n30K. BRAŠNA \n1 - PECIVO \n3K. - KAKAOG\nFIL:\n0,5 L - MLIJEKA\n1 ČAŠA - ŠEĆERA\nNAPRAVIT SUTLIJU A MOŽE I PUDING ILI GUSTIN \n5K. - BRAŠNA \nU OHLAĐENO MARGARIN",
+    "postupak": "PEČENI BISKVIT SJEĆI ČAŠOM, POTOM GA PO POLA RASMEĆI, PREMAZATI GA I OKOLO, PA UVALJATI U KOKOS, A ODZGO PRELITI ČOKOLADOM",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ROLAT",
+    "sastojci": "5 - JAJA\n5K. - VODE\n15K. - ŠEĆERA\n20K. - BRAŠNA\n0,5 - PECIVA\nPREMAZ:\n4K. - KAKAOG\n3K. - BRAŠNA\n15K - ŠEĆERA\n10K. - MLIJEKA",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "4 - JAJA\n2K. - KAKAOG\n2K. - MLIJEKA\n13K. - MARGARINA\n11K. - ŠEĆERA\n24K. - BRAŠNA\n1 - PECIVO",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "PITA SA ORASIMA",
+    "sastojci": "2 - JAJA\n1 ČAŠA - ŠEĆERA\n1 - || - MLIJEKA\n1 - || - UljA\n1 - || - GRIZA\n1 - || - ORAHA\n1 - || - BRAŠNA\n1 - PECIVO\nPOLJEV:\n1 ČAŠA - VODE\n1 - || - ŠEĆERA\nODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "POSUDICE",
+    "sastojci": "1 - JAJE\n1 - MARGARIN\n6K. - ŠEĆERA\n1 - PECIVO\nBRAŠNA PO POTREBI\nPEČENE UVALJATI U ŠEĆER",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ORAHOVA TORTA",
+    "sastojci": "4 - JAJA\n13k. - ŠEĆERA\n5k. - MLIJEKA\n13k. - ORAHA\n19k. - MARGARINA\n20k. - BRAŠNA\n1 - ČOKOLADA\n1 - PECIVO",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "ŠARENI MOTANI KOLAČ",
+    "sastojci": "1 - KVASAC\n1 - JAJE\n1 ČAŠA - ULJA\n1 -|| - MLIJEKA\n1,5 -||- VODE\n1,5 - ||- ŠEĆERA\nBRAŠNA PO POTREBI",
+    "postupak": "TIJESTO RASPOLOVIT U POLA STAVITI KAKAO I PLESTI IH PEČENE OHLADITI A POLJEV VREO",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "DRAŠKOV KOLAČ",
+    "sastojci": "3 - JAJA\n6k. - ŠEĆERA \n1K. - ULJA \n1K. - MLIJEKA \n2k. - KAKAOG\n10k.- BRAŠNA\n1 - PECIVO\nPREMAZ: \n3 - BJELANCA \n9K - ŠEĆERA\nGLAZURA: \n2K.- KAKAOG \n4K.- ŠEĆERA \n2K.- MLIJEKA \n2K.- MARGARINA \n1 RED ČOKOLADE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KOLAČ OD MAKA",
+    "sastojci": "2 FIL KISELOG MLIJEKA\n2 -||- ŠEĆERA\n1 - GRIZA\n1 -||- ULJA \n1 -||- BRAŠNA \n6K. - MAKA \n1 - PECIVO\nFIL: \n4k.- MLIJEKO \n5k - ŠEĆERA\n0,5- MARGARINA \n1  - ČOKOLADA\nTIJESTO HLADNO FIL FRUĆ",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ROLAT OD BANANA",
+    "sastojci": "TIJESTO:\n6 - JAJA\n6k. - ŠEĆERA\n6k. - BRAŠNA\n2k. - ULJA\n2k. - KAKAO\nPECIVO\nNADJEV:\n3 - JAJA\n10k. - ŠEĆERA\n2 - REDA ČOKOLADE\n150g. - MARGARINA\n1 - ŠLAG",
+    "postupak": "PJENASTO MIJEŠATI BJELANJKE SA ŠEĆEROM. DODATI PO JEDNO ŽUMANJCE, ULJE, KAKAO I BRAŠNO. PEĆI U POMAŠTENOJ TEPSIJI POSUTOJ BRAŠNOM. KADA SE ISPEĆE ZAVITI U SALAVETU DA SE OHLADI.",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "HALVA",
+    "sastojci": "4 fil. - VODE \n4 fil. - ŠEĆERA \n2 fil. - ULJA\nDA PROKUHA PA DODATI 4 fil. UPRŽENOG BRAŠNA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "MAČMALO",
+    "sastojci": "3 - ŽUMANJKA \n6k. - ŠEĆERA \n10k. - ULJA \n2k. - KAKAOG \n1 - Š0LJA MLIJEKA\n5k. - BRAŠNA \nPECIVO\n3 - BJELANJKA\n9k. - ŠEĆERA\nPRELITI PA PROPEĆ\nFIL: \n2k. - KAKAO ILI 3 REDA ČOKOLADE \n3k - ŠEĆERA \n3k. - MARGARINA \nPROKUHAT PA PRELITI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "HORMAŠICE",
+    "sastojci": "2 - JAJA \n2 fil. - ULJA \n2 fil. - MARGARINA \n2 fil. - ŠEĆERA\n8 fil. - BRAŠNA \nPECIVO\nPOLJEV: \n10 fil. - VODE \n10 fil. - ŠEĆERA \nHORMASICE VRUĆE POLJEV HLADAN",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "TORTA",
+    "sastojci": "8 - JAJA \n10K.- BRAŠNA \n8K - ŠEĆERA \n8K. - VODE \n1 - VANILIN \nPECIVO\nFil:\n4K. - BRAŠNA \n3K. - ŠEĆERA \n15 ŠOLJA - MLIJEKA \nPROKUHAT U OHLADENO \nMARGARIN",
+    "postupak": "ISTUĆI BJELANCE PA DODATI OSTALO",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "PITA OD GRIZA",
+    "sastojci": "2 ČAŠE - MLIJEKA \n1 -||- ULJA\n1 -||- GRIZA \n2 -||- BRAŠNA \n2 -||- ŠEĆERA \n2 fil. - VODE \nPECIVO\nPOLJEV:\n7k. - VODE \n5k. - ŠEĆERA \n1/4 - MARGARINA \n2K. - KAKAOG",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "KOCKE OD MLIJEKA U PRAHU",
+    "sastojci": "I SLOJ\n5 ŠOLJA - ŠEĆERA\n2 -||- ULJA\n1 -||- MLIJEKA \nPROKUHATI\n5 -||- BRAŠNA\n1 -||- MLIJEKA U PRAHU \n2k. - KAKAOG\nII SLOJ\nSVE ISTO SAMO BEZ KAKAOG TEP. 26.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA MEDOM",
+    "sastojci": "0,5 kg - BRAŠNA \n5k. - MLIJEKA  \n3k. - MEDA\n7k. - ŠEĆERA\n0,5 - PECIVA\n1 fil. - ULJA\n1 - JAJE\nSVE DOBRO UKUHATI I PODIJELITI NA 3 KORE\nFIL:\n1 ČAŠA - ŠEĆERA\n5k. - GRIZA\n0,5 l. - MLIJEKA\nPROKUHAT\nU OHLAĐENO DODATI MARGARIN I ŠLAG",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "PLAZMA KOLAČ",
+    "sastojci": "13k. - VODE \n1kg - ŠEĆERA \n1 - MARGARIN \n1 - PLAZMA KEKS \n1 - KOKOSOVO BRAŠNO",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ROGAČ",
+    "sastojci": "3 - JAJA \n9k. - ŠEĆERA \n9k. - MLIJEKA \n9k. - ULJA \n9k. - BRAŠNA \n1k. - ROGAČA \nPECIVO \nPUDING",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "PITA SA MRVICAMA",
+    "sastojci": "3 - JAJA \n2 fil. - ŠEĆERA \n2 fil. - MLIJEKA \n2 fil. - ULJA \n2 fil. - BRAŠNA \n4 fil. - MRVICA \nPECIVO\nPOLJEV:\n0,5 - MARGARINA \n17k. - VODE (1 ČAŠA) \n5 fil. - ŠEĆERA \n2 k. - KAKAOG",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "ROLAT (ŠAH)",
+    "sastojci": "I KORA\n5 - JAJA \n5 fil. - ŠEĆERA \n2 fil. - ULJA \n1 fil. - MLIJEKA \n5 fil. - BRAŠNA\nPECIVO\nII KORA \nSVE ISTO SAMO JOŠ DODATI 2K. KAKAOG\nFIL: \n700 gr. - ŠEĆERA - ISPRŽITI PA DODATI\n5 fil. - MLIJEKA \n1 - MARGARIN\nPA DODAT PUDINGE \n3 - PUDINGA \n1 l - MLIJEKA \n3 k. - BRAŠNA\nJA SAMO PUDINGE 3 - PUDINGA OD KARAMELE U 1 l. - MLIJEKA KADA SE OHLADI POLA MARGARINA",
+    "postupak": "KORE ISJEĆI NA 10 KOMADA PA POREDAT NAIZMJENIČNO NA OBLATNU. PREMAZATI I SAVIJATI U ROLNU. OBLATNU STAVITI NA SALAVETU KOJA JE BILA NAMOČENA U TOPLU VODU",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "KOLAČ OD COCA-COLE",
+    "sastojci": "4 - JAJA\n4k. - BRAŠNA\n3fil. - ŠEĆERA\nPECIVO\nKREMA:\n1 - MARGARIN - SAM IZMJEŠATI PA DODATI:\n1Č. - PLAZME KEKSA\n1Č. - ORAHA\n1Č. - COCA-COLE\n1Č. - ŠEĆERA\nPO TOME ŠLAG",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "CIGLE",
+    "sastojci": "1kg - ŠEĆERA\n1Č - MLIJEKA\nPROKUHATI\n1kg - BRAŠNA\n1Č - ULJA\n2 - PUDINGA\nSVE SASTAVITI ZAJEDNO IZMIJEŠATI, IZLITI U TEPSISU I POSUTI KOKOSOM.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ROLAT SA KEKSOM",
+    "sastojci": "53- KEKS PETITA \n3K.- KAKAOG \n6fIL - ŠEĆERA U PRAHU \nSKUHATI SA ČAŠOM MLIJEKA I RAZVITI 2 JUHKE\nFIL: \n0,5- MARGARINA \n150gr.- KOKOSA \n6fil. - ŠEĆERA U PRAHU \nSVE SASTAVITI SA IZMIJEŠANOM ŠLAG KREMOM",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "ROLAT SA ĐEMOM",
+    "sastojci": "4 - JAJA \n17K - ŠEĆERA \n17K. - ULJA \n17Κ. - ΜLIJΕΚΑ \n17K. - BRAŠNA\nPECIVO\nPEČENO STAVITI NA SALAVETU I PREMAZATI SA ĐEMOM I SAVITI U ROLNU",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "JASMIN KOLAČ",
+    "sastojci": "4 - JAJA\n8 fil. - ŠEĆERA\n4 fil. - MLIJEKA\n2 fil. - MASLA\n1 fil. - ULJA\n10 fil. - BRAŠNA\n2 K - ORAHA\n2 K - GROŽĐICA\nPECIVO\nPOLJEV:\n3 ŠOLJE - ŠEĆERA\n3 - || - VODE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČUPAVE KOKICE",
+    "sastojci": "2 - JAJA\n0,5 kg - ŠEĆERA\n0,5 l - MLIJEKA\n0,5 - MARGARINA\n2 č. - BRAŠNA\nPECIVO\nFIL:\n0,5 l - MLIJEKA\n9 k. - ŠEĆERA\n0,5 - MARGARINA\n1 - ČOKOLADA\nIZREZAN KOLAČ UVALJATI U OVAJ FIL PA U KOKOSOVO BRAŠNO.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA PRELIVOM",
+    "sastojci": "4 - JAJA\n4K. - ŠEĆERA\n4K. - BRAŠNA\n4K. - ORAHA\n4K. - GROŽĐICA\nKADA SE OHLADI IZREZATI I POREDATI ZATIM PREMAZATI I PRELITI GLAZUROM\nPREMAZ:\n2 - ŽUMANJKA\n2K.- ŠEĆERA\n5K.- BRAŠNA\n2K.- VODE\nISTRESTI U VRELO \n1L - MLIJEKA SVE SASTAVITI PROKUHAT KO PUDING \n6K- ŠEĆERA\nGLAZURA:\n2 - BJELANJKA\n4K. - ŠEĆERA\n1K. - VODE\nMALO SOKA ZBOG BOJE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "MARCIPAN",
+    "sastojci": "3 - JAJA \n6 fil. - ŠEĆERA \n5 fil. - BRAŠNA \n4 fil. - MLIJEKA \n3 fil. - ULJA \n2 fil. - ORAHA \n0,5 - PECIVA\nPRELIV:\n18k. - ŠEĆERA\n0,5 - MARGARINA \n2 fil. - ORAHA \n2K. - KAKAOG ILI 2 - REBRA ČOKOLADE",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA DVOPEKOM",
+    "sastojci": "1 - ŠOLJA - ULJA \n1 - || - ŠEĆERA \n1 - || - PAVLAKE \n5 - JAJA \nPECIVO\nPOLJEV: \n3 - ŠOLJE - ŠEĆERA \n3 - || - VODE\nDVOPEK ISTRATI I DODATI U SMJESU PA ISPEĆI.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ROLAT",
+    "sastojci": "I SMJESA\n2F. - MLIJEKA U PRAHU\n1F. - ŠEĆERA\n1F. - ULJA\nII SMJESA\n3F. - UPRŽENOG BRAŠNA\n1F. - ŠEĆERA\n1F. - KAFE DODATI U PROKUHAN\n1F. - ULJA\n1F. - ŠEĆERA\nRAZVALJATI NA FOLIJU PA PRELITI I SMJESU ZATIM UMOTATI U ROLNU",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "ŠTANGLE",
+    "sastojci": "6 - JAJA\n6K. - ŠEĆERA\n6K. - BRAŠNA\n6K. - ORAHA\nPECIVO\nKREMA:\n5K. - KAKAOG\n5K. - ŠEĆERA\n0,5 - ŠOLJE - MLIJEKA\nPRELITI KOLAČ - ODOZGO POSUTI ORASCIMA I KOKOSOM",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KUGLICE",
+    "sastojci": "1 - JAJE \n9k - ULJA \n9k - MLIJEKA\n9k. - BRAŠNA \n9k. - ŠEĆERA \n3k. - KAKAOG\nPECIVO\nPOLJEV:\n3k. - KAKAOG \n3k. - MLIJEKA \n2k. - ŠEĆERA",
+    "postupak": "ISPEĆI I DA OHLADI ZATIM ISKOMICATI PA POLITI POLJEVOM I PRAVITI KUGLICE.\nPOLJEV VRUĆ PITA HLADNA",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "UVALJANE KUGLICE",
+    "sastojci": "2 fil - MLIJEKA \n2 fil - ULJA \n2 fil - ŠEĆERA \n0,5 - PECIVA\nBRAŠNA PO POTREBI",
+    "postupak": "PRAVITI KUGLICE I PEĆI. ZATIM PROVUĆI KROZ HLADNU VODU I UVALJATI U ŠEĆER.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "OKRUGLI KOLAČ",
+    "sastojci": "2 - JAJA\n1 - MARGARIN\n1,5 - ŠOLJA ŠEĆERA\n1F. - MLIJEKA\nPECIVO\nBRAŠNA PO POTREBI",
+    "postupak": "RAZVALJATI NA STOLU I SJEĆI ČAŠOM. PEČENE PREMAZATI ĐEMOM I SASTAVLJATI.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "MALA TORTA",
+    "sastojci": "3 - JAJA\n3k - KRAŠA\n12k. - ŠEĆERA\n1fil.- ULJA\n1fil. - MLIJEKA\nPECIVO\nKADA SE ISPEČE PREPOLOVITI\nFIL:\n0.5l. - MLIJEKA\n3k. - ŠEĆERA\n3k. - BRAŠNA\n0,5 - MARGARINA\nODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KARAMELO",
+    "sastojci": "4 fil - ULJA \n2 fil - MLIJEKA \n10 fil - ŠEĆERA \n3k - KAKAOG\nPROKUHATI ZATIM DODATI:\n6 fil - BRAŠNA UPRŽENOG\n6 fil - MLIJEKA U PRAHU\nVRUČE ISTRESTI NA OBLATNU DRUGOM POKLOPITI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ OD PUDINGA",
+    "sastojci": "5 - JAJA \n5k - KLJUČALE VODE \n10k - ŠEĆERA \n11k - BRAŠNA \n4k - KAKAOG \nPECIVO\nFIL: \nPUDING PA ŠLAG\nHLADAN KOLAČ ZALITI SA VRELOM 1 ČAŠOM VODE I 1 ČAŠOM ŠEĆERA",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "TULUMBE",
+    "sastojci": "1 ČAŠA - VODE \n1 ČAŠA - MLIJEKA\nŠOLJE ZA ČAJ 2dl \n1 FILDŽAN  - ULJA \n1 FILDŽAN -  ŠEĆERA \nSVE PROKUHATI PA DODATI 2 ISTE ŠOLJE BRAŠNA I PECIVO KADA SE OHLADI ZAKUHATI SA 4 JAJA\nPOLJEV: \n4 ČAŠE - ŠEĆERA \n5 ČAŠA - VODE\nKADA SE TULUMBE OHLADE ONDA IH ZALITI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ BEZ JAJA",
+    "sastojci": "2 ČAŠE - JOGURTA\n1 -||- ULJA\n1 -||- ŠEĆERA\n1 -||- GRIZA\n1 -||- BRAŠNA\n6K. - ORAHA\nPECIVO\nŠLAG PA FIL\nFIL:\n1 - ČOKOLADA\n4 K. - MLIJEKA\n4 K. - ŠEĆERA\nPROKUHAT PA PRELIT",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADNE CIGLE",
+    "sastojci": "0,5 ČAŠE - ULJA \n0,5 -||- MLIJEKA\n0,5 -||- KAKAOG \n3 -||- ŠEĆERA \n3 -||- BRAŠNA",
+    "postupak": "PROKUHATI BRZO MIJEŠATI I ISTRESTI U TEPSIJU KADA SE OHLADI REZATI",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ŠTRUDLA",
+    "sastojci": "2Č - KISELOG MLIJEKA \n2 - GRIZA \n2 - ŠEĆER \n1 - ULJA \nPECIVO\nODOZGO POSUT ŠEĆEROM",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "TULUMBE",
+    "sastojci": "ŠOLJA OD ČAJA\nOMJER ISTIH ČAŠA\nBUDE 50 KOM.\n1 ČAŠA - VODE 0.25dl\n1 -||- MLIJEKA 0.25dl \n1 fil - ULJA \n1 fil - ŠEĆERA\nPROKUHAT\n2 I PO ČAŠE - BRAŠNA I PECIVO - 0,2dL ČAŠA\nKADA SE OHLADI ZAKUHATI SA 5 JAJA\nPOLJEV:\n4 ČAŠE  ŠEĆERA\n5 ČAŠA - VODE 0.2dl",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ OD MLIJEKA U PRAHU",
+    "sastojci": "2 - fil - ULJA\n2 - || - MLIJEKA\n2 - || - ŠEĆERA\n2 - || - MLIJEKA U PRAHU\nBRAŠNA PO POTREBI\nPECIVO",
+    "postupak": "KADA SE ISPEČE UMAKATI U HLADNO MLIJEKO PA U ŠEĆER",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ROLAT OD BANANA",
+    "sastojci": "5 - JAJA\n15k. - ŠEĆERA\n15k. - BRAŠNA\n3 fil. - MLIJEKA\n3 fil. - ULJA\nPECIVO\nFIL:\nPUDING I MARGARIN U SREDINI BANANE. ODOZGO ČOKOLADA ILI ŠLAG.",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "TULUMBE",
+    "sastojci": "BUDE 40 KOM.\n1 ČAŠA - VODE\n1 - || - MLIJEKA\n1 fil. - ULJA\n1 fil. - ŠEĆERA\nPROKUHATI\n2 ČAŠE - BRAŠNA I PECIVO\nKADA SE OHLADI ZAKUHATI SA 4 JAJA\nPOLJEV:\n12 fil. - VODE\n10 fil. - ŠEĆERA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "RUSKE KAPE",
+    "sastojci": "TIJESTO:\n30 K. - BRAŠNA\n1 - JAJE\n150GR - MARGARINA\n10 K. - ŠEĆERA\n1 VREĆICA VANILIN ŠEĆERA\n0,5 - PECIVA\nRAZVITI I SJEĆI ČASOM. PEČENE PREMAZATI I SASTAVITI PO DVA A OKOLO IH UMOČITI U ČOKOLADU PA U ORAHE.\nKREMA:\n15 K.- ORAHA\n3 K. - VANILIN ŠEĆERA\n100GR. - MARGARINA\n1dl. - MLIJEKA \nMLIJEKO I ŠEĆER PROKUHATI PA DODATI OSTALO.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "OBLATNA SA KEKSOM",
+    "sastojci": "KREMA\n4 - JAJA\n3 - REBRA ČOKOLADE\n150 GR. - ŠEĆERA \nISTUĆI NA PARI U MLAKO DODATI MARGARIN\n350GR. - MARGARINA",
+    "postupak": "OBLATRU NAMAZATI KREMOM, A POTOM KEKSE UMAKATI U KAFU I REDATI PO OBLATNI PA PONOVO PREMAZATI I POKLOPITI OBLATNAM.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "VLASTITE ŠNITE",
+    "sastojci": "I TIJESTO \n100GR. - MARGARINA \n5K. - ŠEĆERA \n2 - ŽUMANJKA \n2K. - KISELOG VRHNJA \n20K. - BRAŠNA \nKAŠIKICA PRAŠKA\nRAZVALJATI PA NA TO IZLITI DRUGO TIJESTO I ZAJEDNO PEĆI\nII TIJESTO\n20K. - ŠEĆERA \n5 - ŽUMANJAKA \n10K. - ORAHA \n1 - ČOKDADA \n7 - BJELANJAKA - SNIJEG\nBISKVIT: \n3- JAJA \n2K- ŠEĆERA \n3K. - BRAŠNA \nMALO PECIVA \nMALO LIMUNOVOG SOKA\nGLAZURA: \n150 GR. - ČOKOLADE \n130 GR. - MARGARINA\nKREMA:\n0.5l - MLIJEKA\n5K. - GUSTINA\n120gr. - MARGARINA\n15k. - ŠEĆERA U PRAHU\nLIMUNOVA KORA\nOHLAĐENI KOLAČ PREMAZATI MARMELADOM. ZATIM PREMAZATI KREMOM PA STAVITI BISKVIT PA PONOVO MARMELADOM, ONDA GLAZURA.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA OBLATNOM",
+    "sastojci": "1 - KORA OBLATNE\n7 - JAJA\n7K. - ŠEĆERA\n7K. - ULJA 2\nPECIVO",
+    "postupak": "STAVITI KORU PA PREMAZATI ĐEMOM. NA ĐEM STAVITI PITU PA 2 PUDINGA I MARGARIN. ODOZGO ČOKOLADA",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "BISKVIT",
+    "sastojci": "2 - JAJA \n2 FIL - ULJA\n2 FIL. - MLIJEKA\n4 FIL. - ŠEĆERA\nPECIVO\nSVE ZAKUHATI I PODIJELITI NA 5 DIJELOVA. KORE POSEBNO PEĆI I PREMAZATI KAO TORTU.\nFIL:\n1 L. - MLIJEKA\n6 FIL. - ŠEĆERA UPRŽITI\n4 FIL. - ŠEĆERA\n6 K. - BRAŠNA \n3 K. - KAKAOG\nSA MLIJEKOM ZATIM SVE SASTAVITI I PREMAZIVATI. KORE HLADNE FIL VRUĆ ILI SAMO PUDINGOM.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "TORTA OD PETIT KEKSA",
+    "sastojci": "7 - JAJA\n7K. - ŠEĆERA\n25K. - ORAHA\n1 - MARGARIN\n0,5L. -MLIJEKA\n8K. - ŠEĆERA",
+    "postupak": "MLIJEKO PROKUHATI SA ŠEĆEROM. JAJA MIJEŠATI NA PARI 20MIN. KADA SE OHLADI DODATI MARGARIN SA ŠEĆEROM I ORAHE. SVE SASTAVITI I IZMJEŠATI SA IZLOMLJENIM KEKSOM. ZATIM IZLITI U ZDJELU OBLOŽENU FOLIJOM I STAVITI U FRIŽIDER. IZVADITI NA TASNU I POSUT ORASIMA.",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "LEDENE KOCKE",
+    "sastojci": "4 - JAJA\n6K. - ŠEĆERA\n6K. - BRAŠNA\n4K. - ULJA\n4K. - MLIJEKA\n4K. - KAKAOG \nPECIVO \nTEP. 30.\nPOLJEV:\n6K. - VODE\n6K. - ŠEĆERA\nPITA HLADNA POLJEV VRUĆ\nFIL:\n0,5L. - MLIJEKA\n10K. - ŠEĆERA\n2 - PUDINGA OD VANILIJE KADA SE OHLADI MARGARIN ODOZGO ČOKOLADA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ČOKOLADNI BISKVIT",
+    "sastojci": "6 - JAJA\n6K - ŠEĆERA\n6K - ULJA\n6K - BRAŠNA\n3K - KAKAOG\n0,5 PECIVA\nFIL:\n0,5L - MLIJEKA\n2 - PUDINGA\nPROKUHATI BEZ ŠEĆERA\n1 - MARGARIN U PUDING\n5K - ŠEĆERA\nODOZGO ČOKOLADA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "DOMAĆA TORTA",
+    "sastojci": "2 - JAJA\n3K - ULJA\n6K - BRAŠNA\n6K - MLIJEKA\n6K - ŠEĆERA\nPECIVO\nJEDNA KORA PA RASPOLOVIT. U DRUGU ISTO SAMO DODATI JOŠ 2K. KAKAOG\nFIL:\n0,5L - MLIJEKA\n1 - PUDING\n0,5 - MARGARINA\nODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KOKOS KOLAČ",
+    "sastojci": "8 - BJELANJAKA \n8K. - ŠEĆERA \n200GR. - KOKOSA \nISPEĆI\nFIL: \n8 - ŽUMANJAKA \n8K - ŠEĆERA \n4K. - KAKAOG\nMARGARIN\nODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KOLAČ OD BANANA",
+    "sastojci": "6 - JAJA \n6K. - ŠEĆERA \n6K. - ULJA \n6K. - ORAHA \n7K. - BRAŠNA \nPECIVO \nPO OVOME 1 KG BANANA PA FIL.\nPO OVOME ŠLAG\nFIL: \n2 - JAJA \n12K. - ŠEĆERA \n3K. - BRAŠNA \n1 ČOKOLADA\nNA PARI \nDODATI I SVE IZMIJEŠATI\n1 ČAŠA - MLIJEKA \n10K. - ORAHA \n1 - MARGARIN",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "BIJELA TORTA",
+    "sastojci": "7 - BJELANJAKA\n20K - ŠEĆERA \nISPEĆI!!!\nNA LAGANOJ VATRI DA SE ISUŠI\nFIL: \n7 - ŽUMANJAKA\n5K. - ŠEĆERA\nNA PARI 15-20 MIN\n \n1 - ČOKOLADA \n0,5 - MARGARINA \nPO FILU ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "TORTA BIJELA",
+    "sastojci": "8 - BJELANJAKA\n20K. - ŠEĆERA\nISPEĆI\nFIL: \n8 - ŽUMANJAKA \n6K - ŠEĆERA \n1 - ČOKOLADA \n1 - MARGARIN \n1 - ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "FANTA",
+    "sastojci": "KORA: \n6 - JAJA \n6K. - ŠEĆERA \n6K. - BRAŠNA \nPECIVO\n0,5L - SOKA OD NARANDŽE \n0,5L - KISALE VODE \n2 - PUDINGA (VANILIJA) \n5K. - ŠEĆERA\nPO KORI POREDAT PETIT KEKS PA PUDING PA FIL ODOZGO ČOKOLADA.\nFIL: \n0,5L - MLIJEKA \n2K. - GUSTINA \n2K. - BRAŠNA \n5K - ŠEĆERA\nU OHLAĐENO MARGARIN",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ROLAT OD BANANA",
+    "sastojci": "KORA: (NAJLAKŠI)\n3 - JAJA\n7K. - ŠEĆERA\n3K. - TOPLE VODE\n8K. - BRAŠNA\nPECIVO\nFIL:\n0,5 L. - MLIJEKA\n1 - PUDING\n3K. - ŠEĆERA\n1 - MARGARIN\nSAVITI SA 2 BANANE ODOZGO SLAG ILI ČOKOLADA",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "PREMAZI ZA OBLATNU",
+    "sastojci": "1.\n3 ČAŠE - ŠEĆERA\n1 -||- ULJA\n1 -||- MLIJEKA\n1 -||- BRAŠNA\nKADA PROKUHA RASPOLOVIT. U JEDAN DIO STAVIT 200 GR. KOKOSA, A U DRUGI ČOKOLADU ILI DRUGI PREMAZ\n2.\n4 - ČAŠE ŠEĆERA\n1 -||- BRAŠNA\n1 -||- MLIJEKA\n1 - JAJE\n4K. - KAKAOG\n1 - VANILIN ŠEĆER\nSVE PROKUHATI I U OHLAĐENO DODATI MARGARIN.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ROLAT",
+    "sastojci": "5 -JAJA - POSEBNO IZMIJEŠATI BJELANCA \n10K- ULJA \n9K.- MLIJEKA\nPECIVO\nBRAŠNA PO POTREBI\n7K.- ŠEĆERA\nFIL:\n1 - PUDING\n1 - MARGARIN\nSAVITI ODOZGO POSUTI ORASIMA.",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "ROLAT OD KEKSA I BANANA",
+    "sastojci": "1 - PETIT \n0,5L. - VRHNJA \n1 KG - BANANA \n1 - ČOKOLADA",
+    "postupak": "POREDATI KEKS NA FOLIJU 3 ŠIRINA 5 DUŽINA. NAMAZATI VRHNJE NA NJEGA BANANE PA PONOVO VRHNJE. SAVITI SA FOLIJOM ODOZGO ČOKOLADA.",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "SLADOLED",
+    "sastojci": "4 - BJELANCETA \n6K. - ŠEĆERA \nSASTAVITI SA 2 - ŠLAGA \nPODJELITI NA 3 DIJELA - DODATI NEŠTO PO ŽELJI NPR: JAGODE.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ARABIJA",
+    "sastojci": "12 - JAJA (BJELANACA)\n12K. - ŠEĆERA\n250GR. - ORAH ISJECKANIH\n250GR. - SMOKVI -||-\n250GR. - GROŽĐICA -||-\n7K. - BRAŠNA\nFIL:\n12 - ŽUMANACA\n12K. - ŠEĆERA\n1 VANILIN - ŠEĆER\nNA PARI\nPA DODATI:\n100GR. - ČOKOLADE\n250GR. - MARGARINA\nODOZGO ŠLAG (VRHNJE)",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KREMPITA",
+    "sastojci": "5 - ŽUMANJAKA \n4K. - ŠEĆERA \n4K. - ULJA \n8K. - MLIJEKA \n5K. - BRAŠNA \nPECIVO \nODOZGO ŠLAG\nFIL: \n0,5 KG - ŠEĆERA \n0,5 L - VODE \n2 - PUDINGA (VANILIJA) \nKADA SE OHLADI DODATI 5 IZMIJEŠANIH BJELANACA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ARABI TORTA",
+    "sastojci": "KORA: \n9 - BJELANJACA \n100GR. - ŠEĆERA \n200GR. - ORAHA \n200GR. - SMOKAVA \n200GR. - GROŽĐICA \n2K. - BRAŠNA \nODOZGO ŠLAG \nKORE RASPOLOVIT\nFIL: \n9 - ŽUMANJAKA \n200GR. - ŠEĆERA \n100GR. - ČOKOLADE \n250GR. - MARGARINA \n1 - VANILIN ŠEĆER \nSVE NA PARI\n1H - 170",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KOLAČ OD VIŠANJA",
+    "sastojci": "7 - JAJA\n7K. - ŠEĆERA\n7K. - BRAŠNA\n3K. - ORAHA\n2K. - KAKAOG\nPECIVO\nFIL:\nIZLITI TEČNOST (KOMPOT) OD VIŠANJA. DODATI 0,5 ČAŠE VODE I PROKUHATI SA 5K. GUSTINA I 5K. ŠEĆERA. DODATI POLA IZMIJEŠANOG\nVRHNJA. ODOZGO DRUGU POLOVICU VRHNJA.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KOLAČ OD ĐEMA VIŠANJA",
+    "sastojci": "4 - JAJA\n2 ČAŠE - ŠEĆERA\n1 -||- MLIJEKA\n1 -||- ULJA\n16K. - BRAŠNA\n200GR. - ORAHA\nPECIVO\n1. POLJEV:\n2 ČAŠE - MLIJEKA\n1 -||- ŠEĆERA\n2. FIL: ĐEM OD VIŠANJA\n3. POREDAT PETIT KEKS\n4. 0,5L. MLIJEKA - 3 FIL. ŠEĆERA - 2 PUDINGA VANILIJA\n5. ŠLAG\nTEP. 34 ILI 36",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "HALVAPITA",
+    "sastojci": "1 ČAŠA - ŠEĆERA (UPRŽIT) \n3 -||- VODE \n0,5 -||- ULJA\n1 ČAŠA - PEKMEZA\nPROKUHAT\n8. KAŠIKA BRAŠNA\nPECIVO\nPOLJEV: \n4. ŠOLJICE - MLIJEKA \n2 -||- ŠEĆERA \n(PO ŽELJI PREMAZATI PEKMEZOM PO PITI). ODOZGO POSUTI ORAHE",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "LEDENO NEBO",
+    "sastojci": "TEP. 30.\n7 - BJELANJAKA \n7K. - ŠEĆERA \n7K.- BRAŠNA\nPECIVO \nPITA HLADNA ZALIT ČASOM TOPLOG MLIJEKA\nFIL: \n7 - ŽUMANJAKA \n10K - ŠEĆERA \n6K. - BRAŠNA\n(KO VOLI SLAĐE 11K. ŠEĆERA IZMIKSAT I DODAT U MLIJEKO. PROKUHAT KO PUDING. U MLAKO DODAT ČOKOLADU I MARGARIN)\n \n4 ČAŠE - MLIJEKA\nODOZGO VRHNJE",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "PITA OD JABUKA",
+    "sastojci": "1 KG - JABUKA \n0,5KG - ŠEĆERA\nIZRENDATI I DA STOJI 2H. DODATI OSTALO. PEĆI NA LAGANOJ VATRI.\n1,5 ČAŠU - ULJA\nPRAŠAK \n1 KAŠIKICU - SODE BIKARBONE \nBRAŠNA PO POTREBI \nPOLJEV: \n1 FIL. - ŠEĆERA\n2 FIL. - VODE\nMALO UPEĆI ODOZGO ČOKOLADA ",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "KOLAČ SA PUSLICAMA",
+    "sastojci": "KORA:\n6 - JAJA\n6K - ŠEĆERA\n6K - BRAŠNA\n6K - ORAHA\nFIL:\n300GR - ORAHA\n300GR - ŠEĆERA\n2 - ČOKOLADE\n2 FIL - MLIJEKA\n0,5 - MARGARINA PA VRHNJE",
+    "postupak": "KORA, MALO MLAKOG FILA PA POREDATI 300GR PUSLICA, OSTATAK FILA PA ŠLAG",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "BAKLAVA",
+    "sastojci": "1 - JUFKA\nFIL:\n3 - JAJA\n1 ČASA - ŠEĆERA\n1 -||- ULJA\n1 -||- KAJMAKA\nPECIVO\nMOZE SE STAVITI I POLA ČAŠE GRIZA A U ORAHE 2 FIL MLIJEKA I 2 K. KAKAOG I ČAŠA ŠEĆERA\nORAHE SA 2K ŠEĆERA, FREMAZATI SVAKI LIST I SAVIJATI U ROLNU\nPOLJEV:\n5 ČAŠE - VODE\n5 -||- ŠEĆERA\nLIMUNOVA KORA\nPOLJEV HLADAN PITA VRELA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "LOTUS KOLAČ",
+    "sastojci": "250G - KEKSA (LOTUS / 32 KEKSA)\n80G - MARGARINA RASTOPITI \n(ZAKUHATI)\nZATIM RASPOREDITI U KALUP\nKREMA:\n300 GR. KREM SIRA (MARSCAPONE) \n4K. NAMAZA (LOTUS) \n200 ML. VRHNJA DODAVATI I MIKASATI SVE ZAJEDNO. A MOŽE I POSEBNO.\n2K. LOTUS NAMAZA RASTOPITI NA PARI I PREMAZATI. UKRASITI SA SAMLJEVENIM KEKSOM\n(KO VOLI SLADE MOŽE DODATI 2K. MLJEVENOG ŠEĆERA U KREMU)",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "PIRAMIDA",
+    "sastojci": "1,5 - KUTIJA PLAZME REDATI NA TASNU PA FIL SUŽAVATI PO JEDAN SA STRANA.\nFIL: \n0,3 dl - MLIJEKA\n1 - PUDING\n8 K. ŠEĆERA \nKADA SE OHLADI DODATI:\n0,5 - MARGARINA \n3 - ŽUMANJKA\nOMAKATI KEKS U MLIJEKO ODOZGO VRHNJE.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA ŽELATINOM",
+    "sastojci": "KORA: \n3 - JAJA \n6 K. - ŠEĆERA \n6 K. - BRAŠNA \n1 - VANILIN ŠEĆER \nPECIVO\nFIL: \n0,5 L. - MLIJEKA \n3 ČAŠE - ŠEĆERA \n1 ŽELATIN - KAD SE OHLADI DODATI VRHNJE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ROLAT MIJEŠANI",
+    "sastojci": "1 - PETIT - IZLOMITI I DODATI U 0,5 L. MLIJEKA 15 K. ŠEĆERA \n200 GR. - ORAHA\n200 GR. - SMOKAVA\n200 GR. - GROŽDICA\n1 - ČOKOLADA RASTOPITI\nSVE IZMIJEŠATI I OBLIKOVATI PO ŽELJI. ODOZGO ŠLAG.",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "RAFAELO KOLAČ",
+    "sastojci": "7 - BJELANJAKA\n150GR. - ŠEĆERA\n150GR. - KOKOSOVOG BRAŠNA\n70GR. - BRAŠNA\nVANILIJA\nPECIVO \nKORU MALO NAVLAŽITI SA MLIJEKOM\nKREMA:\n7 - ŽUMANJAKA\n2 - PUDINGA (VANILIJA)\n700ML. - MLIJEKA\n100 GR. - MARGARINA\n100 GR. - ŠEĆERA\n500ML. - SLATKOG VRHNJA",
+    "postupak": "ŽUMANJKE IZMIJEŠATI SA PUDINGOM I 200ML MLIJEKA, OSTALO MLIJEKO PROKUHATI TE DODATI SMJESU. U HLADNU KREMU DODATI MARGARIN IZMIJEŠAN SA ŠEĆEROM. ZATIM DODATI IZMIKSANO VRHNJE. NA BISKVIT STAVITI POLA KREME PA POREDATI PAR PETITA KEKSA UMOČENOG U MLIJEKO. PO PETITU OSTALO POLA KREME.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "RAHVANIJA",
+    "sastojci": "4 - JAJA \n1 - ČAŠA - ŠEĆERA \n1 -||- MLIJEKA \n1 -||- GRIZA \n1 -||- ORAHA \n1 -||- JABUKA \n1 - VANILIN ŠEĆER \nPECIVO\nPOLJEV: \n1 ČAŠA - ŠEĆERA \n1,5 -||- VODE \nPEĆI NA LAGANOJ VATRI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "PITA OD GRIZA",
+    "sastojci": "6 - JAJA \n6K. - ŠEĆERA \n2K. - GRIZA \n100GR. - ORAHA \n100GR. - KOKOSA \n1 ČAŠA - ULJA\nPOLJEV: \n1 ČAŠA - VODE \n1 -||- ŠEĆERA \nŠLAG",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "MILKA TORTA",
+    "sastojci": "9 - BJELJANAKA \n150 GR. - ORAHA (15K) \n9 KAŠIKA - ŠEĆERA \n2 -||- BRAŠNA\nJEDNU KORU PEĆI 20MIN NA 180. MOŽE SE PEĆI JEDNA KORA ILI 3 POSEBNO. AKO SE PEĆE POSEBNO PEĆI 15MIN.\nFIL: \n9 - ŽUMANACA \n3 - PUDINGA OD VANILIJE \n150GR. - ŠEĆERA \n2 KAŠIKE - BRAŠNA\n \nPROKUHATI U 1L MLIJEKA. ZATIM FIL PODMELITI NA 2 DIJELA. U JEDAN FIL 200GR. MILKA CRNE ČOKOLADE. U DRUGI FIL 200GR BIJELE ČOKOLADE. KADA SE OHLADI, DODATI PO POLA MARGARINA\nKREMA: \n0,5L. VRHNJA \nIDE KORA, TAMNI FIL, PA ŽUTI FIL I VRHNJE ISTO TAKO PONOVITI",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KOLAČ OD BANANA",
+    "sastojci": "7 - JAJA\n7K. - ŠEĆERA\n7K. - BRAŠNA\n1 - VANILIN\nPECIVO\nFIL:\n0.5 L. - MLIJEKA\n2 - PUDINGA\n1 - MARGARIN\n3 FIL. - ŠEĆERA\nČOKOLADA\n2 KG BANANA PO PITI PA FIL PA VRHNJE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "MEDENJAK",
+    "sastojci": "2 - JAJA\n2 - ČAŠE - BRAŠNA\n1.5 - || - ŠEĆERA\n1.5 - ||- MLIJEKA\n2K. - ULJA\n5K. - PEKMEZA OD JABUKA\n2 KAŠIKICE - SODE BIKARBONE\n2 - || - ZAČINA MEDENJAK",
+    "postupak": "IZMIJEŠATI SVE PA POPOLOVIT SMJESU. POLA PROPEĆ PA PREMAZATI SA 1 ČOKOLADOM I 5K. ĐEMA OD ŠLJIVA. ZATIM PRELITI PREOSTALU SMJESU I ISPEĆI. ODOZGO ČOKOLADA.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "MEDENA TORTA",
+    "sastojci": "200 GR - MARGARINA\n180GR. - MEDA\n(OTOPITI)\n1 KAŠIČICU SODE 12 GR \nKADA SE OHLADI DODATI, POLA BRAŠNA PA JAJA I OSTALO POLA BRAŠNA\n4 - JAJA \n200GR. - ŠEĆERA\n(IZMIKSATI)\n300GR. - BRAŠNA\nPEĆI U VELIKOJ TEPSIJI. KORU PORAVNATI. OKOLO ISJEĆI. KORU ISJEĆI NA 2 ILI 3 DIJELA I POPOLOVITI.\n700 GR. - PAVLAKE\n0,50. - VRHNJA\n2000GR - ŠEĆERA\nPAVLAKU I ŠEĆER IZMIKSAT PA DODATI VRHNJE I SVE DOBRO IZMIKSATI. PREMAZIVATI SVAKU KORU I OKOLO POSUTI SA SAMLJEVENIM OSTATCIMA KORE, KOJU SMO DOBILI RAVNANJEM SA STRANA KADA SMO JE ISPEKLI.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "I ČOKOLADNI KOLAČ",
+    "sastojci": "5 - JAJA \n1,5 ČAŠA - ŠEĆERA \n1 -||- ULJA \n1 -||- MLIJEKA \n1 -||- BRAŠNA \n2K. - KAKAOG\nPECIVO \nODOZGO VRHNJE\nZAMIJESITI I PEĆI NA DVIJE KORE.\nTEP. 30.\nFIL: \n3 - JAJA - NA PARI CIJELA \n7K. - ŠEĆERA \n1 - MARGARIN \n2 - ČOKOLADE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "II ČOKOLADNI KOLAČ",
+    "sastojci": "6 - JAJA \n1 ČAŠA - ULJA \n2 REDA NARIBANE ČOKOLADE \n8K. - ŠEĆERA \n150 GR. - ORAHA \n200GR. - KOKOSA \nPECIVO\nPOLJEV: \n1,5 ČASA - VODE \n1 -||- ŠEĆERA \nKADA SE OHLADI 2 ŠLAGA OD ČOKOLADE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "MAČMALO",
+    "sastojci": "5 - JAJA (ŽUMANJAKA) \n5k. - ŠEĆERA \n5k. - VODE \n6k. - BRAŠNA \n2k. - KAKAOG \n0,5 - PECIVA\nISPEĆI KORU PA PET MINUTA OHLADITI ONDA DODATI FIL I PONOVO PROPEĆI\nFIL: \n5 - BJELANJAKA \n2k. - ŠEĆERA \nVANILIN\nU IZMIKSANO DODATI VRELU AGDU 13k. ŠEĆERA, 7k. VODE\nKADA SE OHLADI DODATI ČOKOLADU ODOZGO. ČOKOLADU RASTOPITI U MALOM VRHNJU (MOŽE I POLA VRHNJA)\nMASNI SIR: \n0,5 l MLIJEKA - PROKUHATI PA DODATI IZDROBLJEN 1 SIR. ZATIM PONOVO USIRITI U ŠERPU KOJA NE ZAGARA. STAVITI 3 K. KAJMAKA, 2K. MARGARINA, MALO SOLI I PECIVO. KADA SE ISTOPI DODATI SIR I MJEŠATI NA PEĆI SVE DOK SE SJEDINI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "BOEM",
+    "sastojci": "KORA: \n4 - JAJA (BJELANCAD)\n1 ČAŠA - ŠEĆERA \n4K. - KAJMAKA \n4K. - KAKAOG \n1 - VANILIN\n3-4 ČASE BRAŠNA \nPECIVO \nLIMUNOVA KORA\nZAKUHATI I PODIJELITI NA 3 JUHKE. PEĆI NA MASNOM PAPIRU NA IZVRNUTOJ TEPSIJI. POSLIJE RAZREZATI SVE KORE NA POLA. TREBA ODSTOJATI KOLAČ.\nFIL: \n1L. - MLIJEKA \n3 - ŽUMANCA \n0,5 - GUSTINA (KUTIJE) \n2 - VANILIN ŠEĆERA \n1 - MARGARIN \nPREMAZIVATI KORE ODOZGO KOLAČ",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "BIJELA TORTA SA PUDINGOM",
+    "sastojci": "7 - BJELUNACA \n400 GR. - ŠEĆERA \nKADA SE DOBIJE ČVRSTA SMJESA DODATI PAR KAPI LIMUNOVOG SOKA. ISUŠITI KORA NA 150° DO 1,5H\nFIL: \n7- ŽUMANACA\n10 KAŠIKA - ŠEĆERA\n1 VANILIN ŠEĆER\nIZMIKSATI I DODATI 5K. MLIJEKA I 2 PUDINGA OD VANILIJE.\nFIL PROKUHATI SA 0,5L MLIJEKA. \nU OHLAĐENO DODATI MARGARIN. \nPO FILU ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KOLAČ OD BANANICA",
+    "sastojci": "6 - JAJA\n6 FIL. - ŠEĆERA\n3 FIL. - BRAŠNA\n9K. - ORAHA\n0.5 - PECIVA\nFIL:\n10 - BANANICA\n5 dl. - MLIJEKA\n5 K. - GUSTINA\n2 K. - PUDINGA OD VANILIJE\n250 GR. - ŠEĆERA U PRAHU\n1 - VANILIN ŠEĆER\n1 - MARGARIN\nISPEČENU KORU POPOLOVITI, PREMAZATI PA BANANICE PONOVO PREMAZATI PA KORA ODOZGO VRHNJE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČUPAVE KOCKE",
+    "sastojci": "4 - JAJA\n40 K. - BRAŠNA\n3 K. - ĐEMA OD KAJSIJE\n20 K. - ŠEĆERA\n10 K. - ORAHA\n0.5 - PECIVA\n1 - MARGARIN\n4 K. - ŠEĆERA",
+    "postupak": "IZMIJEŠATI ŽUMANCAD, BRAŠNO, PECIVO I 4 K. ŠEĆERA I MARGARIN. PODIJELITI NA 2 KORE, JEDNU STAVITI U HLADNJAK DRUGU U TEPSIJU, NA NJU STAVIMO IZMIJEŠANU BJELANCAD SA ŠEĆEROM I DODATI ĐEM. TO STAVIMO NA KORU POSPEMO SJECKANIM ORASIMA PO TOME KRUPNO IZRENDAMO KORU IZ HLADNJAKA PA PEĆI. ODOZGO MLJEVENOG ŠEĆERA.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ŠTRUDLA",
+    "sastojci": "1 - JUHKA \n2 ČAŠE - JOGURTA \n2 -||- GRIZA \n2 -||- ŠEĆERA \n1 -||-ULJA\nPECIVO",
+    "postupak": "PREMAZATI TRI LISTA, NA POČETKU TREĆEG STAVITI ĐEM I ZAROLATI. ODOZGO POSUTI PRAH ŠEĆEROM.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KINDER PINGVIN",
+    "sastojci": "TIJESTO: \n3 - ŽUMANJKA \n3K. - ŠEĆERA \n3K. - BRAŠNA \n3K. - TOPLE VODE \n1K. - KAKAOG \n3 - BJELANCA \n0,5 - PECIVA\nKREMA: \n0,5 L- VRHNJA \n1 - ŽELATIN\nFIL: \n2 - ČOKOLADE (OTOPITI NA PARI) \n2 KAPI - ULJA \n1/4 - MARGARINA \n1dl. - VODE",
+    "postupak": "PRIPREMA:\nŽUMANJKE I ŠEĆER UMUTITI, DODATI VODU, BRAŠNO, PECIVO, KAKAO I SNIJEG OD BJELANCETA. ISPEĆI 2 KORE.\nPOSTUPAK: \nKORU PREMAZATI POLOVICOM KREME. PO KREMI POLOVICU FILA. KADA SE FIL STVRDNE DODATI DRUGU POLOVICU KREME PA DRUGU KORU. ODOZGO POLOVICU FILA.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "6 -JAJA (RAZDVOJITI PA IZMIXAT)\n10 KAŠIKA - ŠEĆERA \n1 ŠOLJICA - MLIJEKA \n250 GR. - ČOKOLADE \n1/3 - MARGARINA \n8 KAŠIKA - BRAŠNA\nRASTOPITI ZAJEDNO I DODATI U SMJESU\nPECIVO \nISPEĆI 4 KORE ILI 2 PA POLOVITI (28 KALUP)\nFIL: \n0,5 L. - VRHNJA \n300GR. - ČOKOLADE \nČOKOLADU RASTOPITI PA DODATI U IZMIXANO VRHNJE. ĐEM OD KAJSIJE ILI MARELICE. KORU PREMZATI ĐEMOM, PA DRUGU KORU POKLOPITI PA ONDA FILOM, PA OPET TAKO PONOVITI I OKOLO TORTU FILOM.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "PITA OD SIRA",
+    "sastojci": "6 - JAJA \n0,5KG - SIRA \nPECIVO \nMALO ULJA I SOLI \n10 KAŠIKA - BRAŠNA \n400ML. - JOGURTA\nSLATKI SIR: \n5L. - MLIJEKA  \n2L. - SIRUTKE I\nPROKUHATI I ODMA U CJEDILJKU\nMASNI SIR: \n2L. - MLIJEKA PROKUHATI I DODATI 3 IZLOMLJENA SIRA. \nUSIRITI PA DODATI:\n1 - MARGARIN \n15K - KAJMAKA\n1,5K - SOLI \nPECIVO (VIŠE KAJMAKA MANJE MARGARINA)\nSVE NA PLATAMA DOBRO MIJEŠATI. PITU ZAKAHAT KO JUHKU SA 2 - JAJA, MALO GERME, 1 PECIVO SA VODOM I MLIJEKOM\nPEĆI NA LAGANOJ VATRI.",
+    "postupak": "",
+    "categoryId": "4"
+  },
+  {
+    "naziv": "VOĆNI KOLAČ",
+    "sastojci": "TEP. 32.\nKORA:\n0,5L - U VRHNJE IZMJEŠANO DODATI 0,5 KG JAGODA ILI MALINA\n3 - JAJA\n10K. - ULJA \n10K. - ŠEĆERA \n12K. - SIRUTKE \n13K. - BRAŠNA \nPECIVO",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADNI KOLAČ",
+    "sastojci": "KORA: \n5 - JAJA \n13K. - BRAŠNA\n13K. - ŠEĆERA\n13K. - MLIJEKA\n13K. - ULJA\n4K. - KAKAOG \nPECIVO\nFIL:\n0,5L - VRHNJA ZA KAHANJE\n0,5 KG - ČOKOLADE ZA KUHANJE\nU VRHNJE VRELO NE DA PROKUHA DODATI ČOKOLADU\nPEČENU KORU ISJEĆI NA 3 DIJELA PA FILOVATI SA ČOKOLADOM I ĐEMOM OD VIŠANJA ILI POPOLOVITI KO TORTU.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "5 - ŠLAG KREMA OD ČOKOLADE\n300gr - KEKS A PLAZME\n8 - BANANICA ČOKOLADICA\nEUROKREM",
+    "postupak": "IZMJEŠATI ŠLAG SA 0,5L MLIJEKA I PODIJELITI NA 3 DIJELA U:\nI DIO DODATI PLAZMU\nII DIO -||- ISJECKANE BANANICE\nIII DIO -||- EUROKREMA PO ŽELJI",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KOLAČ OD NARANDŽE",
+    "sastojci": "2 - JAJA\n2K. - KAKAOG\n12K. - ULJA\n12K. - ŠEĆERA\n12K. - MLIJEKA\n12K. - BRAŠNA\nPECIVO\nU IZDROBLJENU KORU DODAT 2K. MARMELADE. IZRENDAT 2 ZALEĐENE NARANDŽE MALO VODE I MALO ŠEĆERA SVE SKUHAT I ISTREST NA KORU. ODOZGO ČOKOLADA\nTAKO ISTO I DRUGU KORU PA JE SMRVIT. TEP. 36.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "MAČMALO ILI ŠAMPITA",
+    "sastojci": "TEP. 30\n5 - JAJA (ŽUMANJAKA) \n5K. - ŠEĆERA \n5K. - VODE \n6K. - BRAŠNA \n0,5 - PECIVA \n2 K. - KAKAOG \nFIL:\n5 - BJELANAKA \n2 K - ŠEĆERA \n1 VANILIN\nSVE IZMIJEŠATI PA DODATI PROKUHANOG 13K. - ŠEĆERA NA MALO OHLAĐENU KORU DODAT 7K. - VODE. PREMAZATI I MALO PROPEĆ ODOZGO ČOKOLADA. ČOKOLADU OTOPITI U MALOM VRHNJU (MOŽE I POLA VRHNJA)\nOVAKO ISTO I ŠAMPITA SAMO BEZ KAKAOG I ČOKOLADE",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "BANANKO KOLAČ",
+    "sastojci": "TEP. 32\nKORA:\n4 - JAJA \n6K. - BRAŠNA \n6K. - ŠEĆERA \n2K. - ULJA \n2K. - MLAKE VODE \n2K. - KAKAOG \nPECIVO\nFIL:\n2 - PUDINGA OD VANILIJE \n2 - MALA I ŽELATINANSTOLODA \n1L - MLIJEKA \n2 ČAŠE - ŠEĆERA \n1 - VELIKO VRHNJE OD 500ML.\n \nMLIJEKO I ŠEĆER PROKUHATI, DODATI PUDING. U VREO STAVIT ŽELATIN (ŽELATIN IZMJEŠAT SA 5K VODE). IZMIKSATI VRHNJE I SASTAVIT SA PUDINGOM. NAREZATI 10 BANANICA U SMJESU I ODOZGO ČOKOLADA.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "KORA: \n5 - JAJA \n5K. - ŠEĆERA \n1K. - KAKAOA \n5K. - MLJEVENIH ORAHA \n3K. - BRAŠNA\nPECIVO\nPODIJELIT NA 3 KORE\nFIL: \n800ML - MLIJEKA \n1 - PUDING OD ČOKOLADE \n4 KAŠIKE - GUSTINA \n1 - VANILIN \nPOSEBNO IZMIKSATI MARGARIN SA 250GR ŠEĆERA PA DODATI U OHLAĐENO I STAVITI 2 REDA ČOKOLADE I ODOZGO ČOKOLADA",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "NUGAT TORTA",
+    "sastojci": "KORA:\n3 - JAJA\n5K. - ŠEĆERA\n5K. - BRAŠNA\n1K. - KAKAOA\n3K. - ORAHA\nPECIVO\nKREMA:\n1L - MLIJEKA\n3 - PUDINGA OD VANILIJE\n7K. - ŠEĆERA\n3 - REDA ČOKOLADE ZA KUHANJE\n2K. - KAKAOA\nSVE KUHATI, KAD SE OHLADI MARGARIN I 2 K. MLJEVENOG ŠEĆERA.\nODOZGO PO ŽELJI ŠLAG ILI ČOKOLADA",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "BALON TORTA",
+    "sastojci": "KORA:\n3 - JAJA\n5K. - ŠEĆERA\n1K. - KAKAOG\n5K. - BRAŠNA \nPECIVO\nFIL:\n3/4 MLIJEKA PROKUHATI SA 3 VANILIN ŠEĆERA I 3K. ŠEĆERA. ODUZETI MALO NE PROKUHANG MLIJEKA PA IZMIJEŠAT 5K. GUSTINA. PROKUHATI KO PUDING. U OHLAĐENO MARGARINI I 2K. ŠEĆERA U PRAHU. ODOZGO ŠLAG.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "ORAHOVA TORTA",
+    "sastojci": "KORA:\nIZMIJEŠATI 5 - BJELANACA PA DODAVATI \n5K. - ŠEĆERA \n5 - ŽUMANACA\n5K. - ORAHA\n1K. - BRAŠNA\nPREREZATI NA 2 KORE\n1. FIL: \nPROKUHATI 150 DL. MLIJEKA SA 200GR ORAHA I 4K ŠEĆERA. KADA SE OHLADI DODATI 4 ŽUMANCA I 4K. PRAH ŠEĆERA. 3 REDA ISTOPLJENE ČOKOLADE: SOK OD NARANDŽE I 150GR. PUTERA\n2. FIL: \nPROKUHATI 200GR. ŠEĆERA SA MALO VODE. DODATI U SNIJEG OD 4 BJELANCA PA MALO NA PARI. NAIZMJENIČNO PREMAZIVATI KORE 1. FIL PA 2. FIL. ODOZGO ŠLAG",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "MONTE KOLAČ",
+    "sastojci": "KORA: \n6 - ŽUMANJAKA \n5K. - ŠEĆERA \n5K. - MLJEVENIH ORAHA \n2K. BRAŠNA \nPECIVO\n6 - BJELANJAKA\nKREMA: \n0,5L - MLIJEKA\n5K. - GUSTINA \n5K. - ŠEĆERA\nU OHLAĐENO MARGARIN\nGLAZURA: \n0,5L. - VRHNJA \n300GR. - ČOKOLADE \nSVE OTOPITI NA VATRI SAMO DA NE PROKUHA.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KINDER MILK ŠNITE",
+    "sastojci": "KORA:\n5 - JAJA\n8 KAŠIKA - ŠEĆERA\n10 -||- MLIJEKA\n10 -||- ULJA\n3 -||- KAKAOG\n9 -||- BRAŠNA\nPECIVO\nPOSEBNO UMUTITI BJELANCA I STAVIT MALO SOLI, PA SVE SASTAVIT, KAD SE ISPEČE POPOLOVIT KORU.\nFIL:\n300GR. - KISALE PAVLAKE (VRHNJE/NARANDŽASTA ZBREGOV)\n12 KAŠIKA - ŠEĆERA\n2 VANILIN - ŠEĆERA\n0,5L. SLATKOG VRHNJA IZMIKSAT PA DODATI SA KISELIM VRHNJEM.\nTO STAVIT IZMEĐU KORA, A ODOZGO ČOKOLADA.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ŠVEDSKA TORTICA",
+    "sastojci": "TEP. 32\n6 - JAJA \n12K. - ŠEĆERA \n6K. - HLADNE VODE \n13K. - BRAŠNA \n7K. - MLJEVENIH ORAHA \nPECIVO \nPOSEBNO UMUTITI BJELANCE PA DODAVATI ŽUMANCE SA ŠEĆEROM I SVE OSTALE SASTOJKE.\nPOPOLOVIT SMJESU PA MOGU SE ISPEĆI I 2 KORE ZA TORTU. KADA SE OHLADI ZALITI SA ČAŠOM MLIJEKA I VANILINIM ŠEĆEROM RASTOPLJENIM U MLIJEKU.\nFIL: \n0,5L - MLIJEKA \n5K. - ŠEĆERA \n4K. - GUSTINA\nU OHLAĐENO DODATI MARGARIN\n \n200GR. - MARGARINA \nODOZGO ŠLAG OD ČOKOLADE",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "BAKLAVA SA ĐEMOM",
+    "sastojci": "1 - JUHKA \n4 - JAJA \n2Č. - ŠEĆERA \n2Č. - JOGURTA \n2Č. - GRIZA \n1Č. - ULJA \n2 - VANILIN ŠEĆERA\nPECIVO\nSTAVITI ĐEM ILI EUROKREM NA TREĆU JUHKU NA POČETKU I SAVITI U ROLNU. PREMAZIVATI SVAKI LIST.\nPOLJEV: \n2Č. - ŠEĆERA \n3Č. - VODE \nVANILIN ŠEĆER",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "PIŠKOTE KOLAČ",
+    "sastojci": "400 GR. - PIŠKOTE KEKSA\n0,5 L. - SLATKOG VRHNJA (IZMIKSATI PA DODATI)\n2 - JAJA \n1Č - ŠEĆERA\nIZMIKSATI\n1 - VAJKREM\nSVE SASTAVITI I PREMAZIVATI, POLA PIŠKOTA, PA PREMAZ, PA OSTALA POLOVICA PIŠKOTA PA PREMAZ, PO TOME MOŽE I ČOKOLADA ALI NE MORA.\nKEKS UMAKATI U JAČE NAPRAVLJENU KAVU.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KROFNE",
+    "sastojci": "150DL - MLIJEKA (ŠOLJA OD ČAJA) \n50DL - KAJMAKA (PAVLAKE/2 KAŠIKE KAJMAKA) \n25 GR - KVASCA (4-5 KAŠIKICA) \n75GR - MARGARINA \n3 K. (VELIKE) - ŠEĆERA \n1 - JAJE \n8 - ŠOLJICA BRAŠNA",
+    "postupak": "GERMU SA 1K. ŠEĆERA I 1K. BRAŠNA POMIJEŠATI SA MLAKIM MLIJEKOM. OSTAVITI 10 MIN. DA ODSTOJI DA SE OTOPI. ZAKUHAT KO JUHKU. RAZVIT DEBLJINE PRSTA OKRUŽIVATI ČAŠOM I NA SREDINI PREMAZ. SA STRANA SAVIJATI TO ZAVITKE. POREDAT U TEPSIJU I OSTAVIT DA STOJI 1H. PEĆ U RERNI 10 MIN NA TEMP. 250° U ZAGRIJANOJ RERNI. KAD SE ISPEKU PREMAZAT MARGARINOM I POSUT ŠEĆEROM.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KINDER TORTA",
+    "sastojci": "KORA:\n300 GR. - MLJEVENOG KEKSA\n100 GR. - OTOPLJENOG MASLACA\n170 ML. - MLIJEKA\nSJEDINITI KALUP 24\nKREMA:\n400 ML - SLATKOG VRHNJA\n200 GR. - VAJKRENA MEGGLE KLASIK\n7 KAŠIKA - ŠEĆERA U PRAHU\n10 - KINDER ČOKOLADICA\nGANAŽ:\n100 ML. - SLATKOG VRHNJA\n8 - KINDER ČOKOLADICA\nOTOPITI NA PARI\nPRIPREMA:\nČOKOLADICE OTOPITI NA PARI KADA SE OHLADE DODATI U KREMU.\nIZMIKSATI VAJKREM SA ŠEĆEROM, DODATI SLATKO VRHNJE I SVE DOBRO\nIZMIKSATI DOK NE POSTANE GUSTO. GANAŽ PRELITI PREKO KREME.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KARAMELO KOLAČ SA BANANAMA",
+    "sastojci": "KORA:\n1 - BANANA\n4 - JAJA\n1 ŠOLJA - BRAŠNA\n1 DL. - ULJA\n10G - CIMETA\n4 KAŠ. - ŠEĆERA\nPECIVO\nFIL:\n300G - ŠEĆERA\n2 DL. SLATKE PAVLAKE (VRHNJE)\n150G - MARGARINA\n200G - ŠLAGA\n2,5 DL. - MLIJEKA\n4 - BANANE\nODOZGO NARENDATI ČOKOLADU",
+    "postupak": "PRIPREMA:\nKORA: \nPJENASTO UMUTITI JAJA I ŠEĆER, PA DODATI OSTALE SASTOJKE. TEPSIJU NAULJITI I POSUTI BRAŠNOM, POSLAGATI PO DNU KOLUTOVE BANANE, PRELITI SMJESOM I PEĆI.\nFIL: \nU ŠERPU STAVITI ŠEĆER I OTOPITI. POTOM DODATI TOPLU PAVLAKU I KUHATI MJEŠAJUĆI DOK SE NE ČVRSNE MALO. U TOPAO FIL DODATI MARGARIN. KAD SE OHLADI U POLA FILA DODATI IZMIJEŠANI ŠLAG. KORU PREMAZATI SA TIM FILOM, PA POREDATI KOLUTOVE BANANE I PREMAZATI PREOSTALOM POLOVICOM FILA. POSUTI RENDANOM ČOKOLADOM.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "6 - JAJA\n6K. - ŠEĆERA\n4K. - BRAŠNA\n3K. - KAKAOG\nFIL\n8 DL. - MLIJEKA\n2 - PUDINGA OD ČOKOLADE\n6K. - ŠEĆERA\n150GR. - MARGARINA\n100GR. - ŠEĆERA U PRAHU\n100GR. - ČOKOLADE\n0,5L. - VELIKO VRANJE\nAKO SE PEKU 3 KORE ONDA MALO VRHNJE I 1 PUDING U 0.30ML MLIJEKA.",
+    "postupak": "IZMIKSATI BJELANCA, DODAVATI SA ŠEĆEROM I POLAKO U IZMIKSANO DODAVATI ŽUMANCA. POMIJEŠATI BRAŠNO I KAKAO PA I TO DODATI. ISPEĆI 4 ILI 3 KORE NA 180° 15 MIN. U PUDING DODATI ČOKOLADU. U OHLAĐENO MARGARIN SA ŠEĆEROM U PRAHU. KORA PA RED VRHNJA PA FIL, PA KORA I SVE TAKO. GORE OSTALI ŠLAG I UKRASITI TOPLJENOM ČOKOLADOM. SVAKU KORU POPRSKATI SA MALO MLIJEKA.",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "ČOKOLADNA TORTA",
+    "sastojci": "KORA:\n2 - JAJA\n3K. - ŠEĆERA (KAŠIKE)\n2K. - KAKAOG\n8K. - ULJA\n4K. - VODE\n4K. - BRAŠNA\nPOLA PECIVA\nISPEĆI TAKO 3 KORE.\nFIL:\n750 ML. - MLIJEKA\n3 - PUDINGA OD ČOKOLADE\n10K. ŠEĆERA\nKREMA:\n400 ML. SLATKOG VRHNJA U NJEMU RASTOPITI 300G ČOKOLADE.\nKADA SE PUDING OHLADI SVE SASTAVITI I PREMAZIVATI KORE.\nKREMA TREBA BITI DOBRO OHLADENA.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KIFLICE I",
+    "sastojci": "1KG - BRAŠNA \n1K. - SOLI \n4K. - ŠEĆERA \n0.5L. - MLIJEKA \n1 - JAJE \n1 ŠOLJICA - ULJA \n2DL - VODE (MLAKE)\nKVASAC",
+    "postupak": "UMLAČITI MLIJEKO, DODATI 2K. ŠEĆERA I KVASAC.\nU PLASTIČNOJ POSUDI STAVITI 1KG BRAŠNA, 1K. SOLI I 2K. ŠEĆERA. TO SVE DOBRO IZMIJEŠATI I NAPRAVITI RUPU U SREDINI I DODATI KVASAC, JAJE, ULJE I VODU. OSTAVITI DA TIJESTO NADOĐE I PRAVITI KIFLICE.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KIFLICE II",
+    "sastojci": "250ML - MLAKOG MLIJEKA\n250ML. - MLAKE KISELE VODE \n1 KAŠIKICA-  KVASCA\n2 KAŠIKE - ŠEĆERA\n2 KAŠIKICE - SOLI \n150ML - ULJA\n1KG - BRAŠNA",
+    "postupak": "ZAKUHATI SA MLAKOM VODOM I MLIJEKOM. ODMAH RAZVITI I OSTAVITI 30MIN. DA STOJE PA PEĆI. MALO IH POPRSKATI VODOM PRIJE PEČENJA.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "OBAMA KOLAČ",
+    "sastojci": "TEP. 30\n4 - JAJA\n18K. - ŠEĆERA\n18K. - MLIJEKA\n18K. - ULJA\n15K. - BRAŠNA\n3K. - KAKAOG\nPECIVO\nKREMA:\n400ML. - MLIJEKA\nPUDING OD VANILIJE\n9K. - ŠEĆERA\n100GR. - ČOKOLADE\nPAR PETIT KEKSIĆA\n1 ŠLAG - VRHNJE IZMJEŠANO",
+    "postupak": "ISPEĆI DVIJE TANJE KORE. OD 400ML MLIJEKA ODVOJITI 100ML. PA SASTAVITI SA PUDINGOM I ŠEĆEROM. OSTALO 300ML PROKUHATI. KADA SE DOBRO OHLADI DODATI IZMIKSANI ŠLAG. STAVITI PRVU KORU PA POLA KREME, PO KREMI POREDATI PETIT KEKS, UMAKATI GA U MLIJEKO PA PREKO NJEGA DRUGU POLOVINU KREME I POKLOPITI DRUGOM KOROM. RASTOPITI ČOKOLADU SA 2K. ULJA I PREMAZATI. DOK JE ČOKOLADA VRUĆA SA MALOM KAŠIKICOM DODATI MALO ŠLAGA PA ČAČKALICOM IŠARATI PO ČOKOLADI.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "BRONHI ŠNITE",
+    "sastojci": "KORA: \n8 - BJELANJAKA SA MALO SOLI \n8K - ŠEĆERA \n4K - BRAŠNA \n1K. - GUSTINA \n2K. - KAKAOG \n1K. - SIRĆETA\nFIL: \n0,5L. - MLIJEKA \n100GR.- BRONHI BOMBONA \n8 - ŽUMANJACA \n10K - ŠEĆERA \n2 - PUDINGA OD VANIL \n120ML. - VRHNJA \n100GR. - MARGARINA \n50GR - ČOKOLADE",
+    "postupak": "U 400ML. MLIJEKA DODATI BRONHI DA PROKUHA. ŽUMANKE SASTAVITI SA 100ML. MLIJEKA I PUDING PA SVE PROKUHATI. KADA SE OHLADI DODATI MARGARIN I IZMJEŠANO VRHNJE. IZMIKSATI I POPOLOVITI FIL U POLA DODATI ČOKOLADU.\nKORU TAKODE PODIJELITI NA DVIJE U JEDNU DODATI KAKAO. MIKSATI BJELANCE SA SOLI, POSTEPENO DODAVATI ŠEĆER DOK SE NE ŠVISNE, ONDA DODATI BRAŠNO, GUSTIN I SIRĆE. KADA SE KORE ISPEKU MOGU SE POPOLOVITI. NA SVIJETLU KORU SVIJETLI FIL PA TAMNU KORA PA TAMNI FIL.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KROFNE",
+    "sastojci": "2 - ŽUMANCA\n2K. - MASLACA\n3K. - ŠEĆERA\nMALO SOLI\n2K. - KVASCA\n0,5L. - MLIJEKA\n1KG. - BRAŠNA",
+    "postupak": "OKO 200GR. BRAŠNA STAVITI U POSUDU, STAVITI ŽUMANCE, SO, ŠEĆER, OTOPLJEN MASLAC I DODATI NADOSTI KVASAC. MASLAC NA SOBNOJ TEMPERATURI OTOPIT. ZAMIJESITI TIJESTO MLAKIM MLIJEKOM I OSTAVITI POLA SATA. POTOM GA PROMIJESITI I JOŠ POLA SATA DA STOJI. ZATIM RAZVITI ZA DEBLJINU PRSTA I ČAŠOM VADITI. POKRITI IH I OSTAVITI JOŠ 15 MIN. PRŽITI IH NA ZAGRIJANOM ULJU, TAKO ŠTO STAVIMO ONU STRANU KROFNE ŠTO JE BILA DOLE U ULJU DA BUDE GORE. POTOM IH VALJATI U ŠEĆER U PRAHU.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "HORMAŠICE SA PEKMEZOM",
+    "sastojci": "2 - JAJA\n3 ŠOLJICE - ŠEĆERA\n3 -||- ULJA\n3 -||- PEKMEZA DA JE GUŠĆI\n1 -||- MLIJEKA\n600GR. - BRAŠNA - (13 ŠOLJICA)\nPECIVO\nMOŽE SE DODATI JOŠ BRAŠNA DA NE BUDE MEHKO. I MALO NASJECKATI ORAHA\nPOLIEV:\n500GR. - ŠEĆERA (8 - ŠOLJICA)\n1 ŠOLJICA - PEKMEZA\n600ML. - VODE  (10 ŠOLJICA)\nSAMO PROKUHATI I OHLADITI",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "SLANI KRUH",
+    "sastojci": "0,5L. - VRUĆE VODE \n1K. - GERME \n0,5K. - SOLI \nMALO ŠEĆERA \n1K. - BRAŠNA",
+    "postupak": "SVE DA ODSTOJI PA DODATI 4-5 ČAŠA BRAŠNA, 50GR. RASTOPLJENOG MARGARINA.\nSKUHATI KRUH I DA STOJI 1H I PREKUHATI U TEPSIJU. U TEPSIJI DA ODSTOJI JOŠ 10-15MIN. PEĆI GA 20-30 MIN.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "BAJADERA",
+    "sastojci": "9 - KAŠIKA VODE \n200GR. - ŠEĆERA \n150GR. - MLJEVENIH ORAHA \n250GR. - MLJEVENOG PETIT KEESA \n170GR. - MASLACA \n100GR. - ČOKOLADE ZA KUHANJE\nZA GLAZURU:\n100GR. - ČOKOLADE ZA KUHANJE \nMALO ULJA",
+    "postupak": "1. U LONAC STAVITI VODU I ŠEĆER DA SE OTOPI.\n2. SKINUTI SA VATRE DODATI MASLAC I MIJEŠATI, DA SE OTOPI.\n3. KADA SE MASLAC OTOPI DODATI ORAHE I KEKSE TE MIJEŠATI DA SE DOBIJE GUSTA MASA.\n4. DOBIVENU MASU PODIJELITI NA DVA DIJELA. \n5. U JEDAN DIO DODATI OTOPLJENU ČOKOLADU (NA PARI OTOPIT).\n6. NA MASNI PAPIR STAVITI VREO DIO SA ČOKOLADOM I OBLIKOVATI KVADRAT. NA NJEGA STAVITI VREO I DRUGI DIO SMJESE.\n7. ČOKOLADU SA MALO ULJA OTOPITI I PRELITI.\n8. BAJADERU OSTAVITI U FRIŽIDER I DRUGI DAN IZREZATI.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA MEDOM I CIMETOM",
+    "sastojci": "4 - JAJA - ODVOJITI BJELANCE I U NJEGA DODATI 3K. - ŠEĆERA\n10K. - ŠEĆERA \n3 FIL. - VODE\nSVE SASTAVITI PA DODATI PECIVO I BRAŠNA PO POTREBI OKO 12K.\n1 KAŠIKICA MALA - CIMETA\n2K. - KAKAOG",
+    "postupak": "PEĆI U ČETVRTASTOJ TEPSIJI I ISJEĆI NA 3 DIJELA, PA PREMAZATI SA MALO MEDA I ĐEMOM. ODOZGO ČOKOLADA.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "TROSTRUKI UŽITAK",
+    "sastojci": "2 KUTIJE KEKSA 300GR\nTEP. 32.\n6 - JAJA\n380GR. - ŠEĆERA\n150GR. - MLJEVENIH ORAHA\n2K. - BRAŠNA\nPECIVO\n7DL. - MLIJEKA\n2 - PUDINGA OD VANILIJE\n200GR. - ČOKOLADE\nMARGARIN\nPLAZMA KEKS\nPRIPREMA:\n6 BJELANJAKA UMUTITI SA 200GR ŠEĆERA, DODATI I MIJEŠATI MUĆKALICOM 150GR ORAHA, 2K BRAŠNA I PECIVO, PA PEĆI NA 200C 15MIN.\nFIL: \n6 - ŽUMANACA\n2 - PUDINGA\n18GR. - ŠEĆERA \nUMUTITI I DODATI U 7DL VRELOG MLIJEKA, STALNO MIJEŠATI NA VATRI DOK SE NE DOBIJE KREMA. U OHLAĐENO MARGARIN KREMU PODIJELITI NA 2 DIJELA. U JEDAN DOLATI 200GR. ČOKOLADE OTOPLJENE. NA KORU SIPATI ŽUTI FIL, PA POREDATI PLAZMA KEKS UMOČEN U MLIJEKO. PO KEKSU ČOKOLADNI FIL, ODOZGO ŠLAG. KEKS UMAKATI U MLAKO MLIJEKO.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ORAHOVE KOCKE",
+    "sastojci": "5 - JAJA\n18 DAG - ŠEĆERA\n16 DAG - BRAŠNA\n2 DL. - MLIJEKA\n2 DL. - ULJA\n10 K. - ORAHA\nPECIVO\nFIL:\n0,5 L. - MLIJEKA\nPUDING OD VANILIJE\n2 K. - BRAŠNA\n25 DAG - ŠEĆERA\n25 DAG - MARGARINA",
+    "postupak": "ISPEČENU KORU PREPOLOVITI. \nFIL: SKUHATI PUDING I BRAŠNO U MLIJEKU U OHLAĐENO DODATI MARGARIN. \nODOZGO ŠLAG PA POSUTI ORASCIMA.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ČOKOLADNA FANTAZIJA",
+    "sastojci": "4 - JAJA\n6 K. - ŠEĆERA\n8 K. - ORAHA\n2 K. - KAKAO\n4 K. - BRAŠNA\n250 GR. - MARGARINA (SOBNA TEMP.)\nPECIVO\nJAJA I ŠEĆER DOBRO IZMIKSATI PA DODATI OSTALO I PEĆI.\nKREMA:\n1 L. - TEČNOG VRHNJA\n500 GR. - ČOKOLADE\nU TEČNI ŠLAG IZLOMITI ČOKOLADU I STAVIT NA PEĆ DA SE OTOPI. KAD SE OHLADI PO KORI.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KUGLICE OD NARANDŽE",
+    "sastojci": "100 GR. - MARGARINA\n250GR. - MLEVENOG KEKSA\n150GR. - ŠEĆERA U PRAHU\n1 - ZALEĐENA NARANDŽA\n100GR. - ČOKOLADE, RASTOPITI SA 3K. ULJA",
+    "postupak": "1. POMEŠATI MARGARIN I ŠEĆER PA DONRO IZMJEŠATI.\n2. ZALEĐENU NARANDŽU IZRENDATI PA SASTAVITI.\n3. DODATI KEKS I SVE DOBRO SJEDINITI.\n4. AKO JE MASA MEHKA DODATI JOŠ KEKSA.\n5. PRAVITI KUGLICE I KADA SE STEGNU.\n6. PRELITI ČOKOLADOM.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ SA BANANICAMA",
+    "sastojci": "4 - JAJA\n16K. - ULJA\n16K. - MLIJEKA\n16K. - BRAŠNA\n16K. - ŠEĆERA\n10 - BANANICA ISECKAT",
+    "postupak": "PO VRELOJ PITI :\nPOLJEV:\n1Č - VODE \n3K. - ŠEĆERA \nPO KORI:\n300GR. OTOPLJENE ČOKOLADE U VRHNJU",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KARAMEL TORTA",
+    "sastojci": "KORE:\n5 - JAJA\n5K - ŠEĆERA\n3K - ULJA\n100GR. - MLJEVENIH ORAHA ILI 3K BRAŠNA \n1K. - BRAŠNA \n3K. - KAKAOG\nPECIVO\nODVOJIT BJELANCA, POSTEPENO DODAVATI ŽUMANCA I OSTALO, PEĆI 3 KORE.\nIDE KORA PA ČOKOLADA PA KARAMEL FIL\nKREMA: \n0.75L - MLIJEKA \n2,5 - PUDINGA OD KARAMELE \n3K. - ŠEĆERA \n250GR. - MARGARINA \n100GR. - ŠEĆERA U PRAHU \n120GR. - ČOKOLADE MLIJEČNE\nFIL: \n500 ML. - VRHNJA \n20GR. - MARGARNA (1  DO 2 KAŠIKE)\n200GR.- ŠEĆERA ZA KARAMEL \nOSTALO POLA VRHNJA IZMIKSAT I SVE SASTAVIT\nOTOPIT ŠEĆER ZA KARAMEL, DODATI MARGARIN I OTOPITI. DODATI POLA TOPLOG VRHNJA. KAD SE OHLADI DODATI.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "PRINCES TORTA",
+    "sastojci": "TEP. 32\nKORA: \n5 - BJELANJAKA\n7K - ŠEĆERA\n5K - BRAŠNA \n0.5 - PECIVA\nPOLITI SA POLA ČAŠE MLIJEKA I VANILINIM ŠEĆEROM.\nFIL: \n400ML - MLIJEKA\n \n7K. - ŠEĆERA \n5 - ŽUMANACA \nDODATI U MLAKO MLIJEKO I PROKUHATI\nKADA SE MALO OHLADI DODATI 15GR. ŽELATINA. KADA SE POTPUNO OHLADI DODATI 300ML. IZMIKSANOG VRHNJA, 2 PAKLA JAFE ISJECKATI I 50GR. ČOKOLADE ISJECKATI. PO TOME 200 ML. VRHNJA ILI ŠLAG.\nKO VOLI DOSTA FILA MOŽE STAVITI 0,5L VRHNJA.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "ORAHOVA TORTA",
+    "sastojci": "10 - JAJA\n300 GR. - ŠEĆERA (7 FIL.)\n300 GR. - BRAŠNA I VANILIN ŠEĆER \n150 GR. - PUTERA RASTOPITI \nIZMIKSATI BJELANCA SA ŠEĆEROM PA DODATI ŽUMANCE SA VANILIJOM I PUTER, ONDA BRAŠNO\nKREMA:\n400 ML. - MLIJEKA\n400 GR. - ŠEĆERA \n1 - VANILIN \n100 GR. - PUTERA\nPROKUHATI\n400 GR. - ORAHA - DODATI U PROKUHANO MLIJEKO I KUHATI 20 MIN. MALO MJEŠATI. KORU PEĆI 1 H NA 180C. KADA SE KORA OHLADI RASJEĆI JE NA 3 KORE. VRATITI U KALUP I PO NJIMA VRELU KREMU. OSTAVITI DA PRENOĆI U FRIŽIDERU. ODOZGO VELIKO VRHNJE U NJEGA NEKU AROMU. MOŽE RASTOPLJENA ČOKOLADA. PO VRHNJU I OKOLO POSUTI ORASCIMA.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "OBLATNA SA MLIJEKOM U PRAHU",
+    "sastojci": "10 KUTLJAČA (PO PET)\nOBLATNA \n0,5 KG - ŠEĆERA U PRAHU \n250 GR. - MLIJEKA U PRAHU\n \n1 ČAŠA - ULJA \n1 ČAŠA - MLIJEKA\nDA PROKUHA PA DODATI ŠEĆER I MLIJEKO U PRAHU\n \n2 - ČOKOLADE BIJELE, 2 CRNE (A MOŽE I PO JEDNA) \nSKINUTI SA PLATA I PODIJELITI NA 2 DIJELA. U JEDAN STAVITI BIJELU ČOKOLADU, U JEDAN CRNU ČOKOLADU.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "KOLAČ OD BANANA",
+    "sastojci": "KORA:\n6 - JAJA\n6K. - ŠEĆERA\n6K. - ULJA\n6K. - ORAHA\n7K. - BRAŠNA \nPECIVO P\nO PITI 1 KG BANANA\n1. FIL: \nNA PARI:\n2 - JAJA \n12 K. - ŠEĆERA \n3 K. - BRAŠNA \nČOKOLADA\n2. FIL: \n1 ČAŠA - MLIJEKA \n10 K. - ORAHA \nMARGARIN \nSASTAVITI SVE (1. FIL I 2. FIL)\nPO FILU VRHNJE",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "HURMAŠICE",
+    "sastojci": "2 - JAJA \n2 FIL. - ŠEĆERA\n1 - PUTER \n0,5 - PECIVA \n14 FIL. - BRAŠNA\nZALJEV: \n14 FIL. - ŠEĆERA\n14 FIL. - VODE\nDA KUHA 10 MIN. - VRELIM SE ZALIJU VRELE HURMAŠICE",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ŠAMPITA",
+    "sastojci": "11 - ŽUMANJAKA \n11K. - ULJA \n11K. - ŠEĆERA \n11K. - MLIJEKA \n1K. - BRAŠNS\nPOLA PECIVA\nPJENA:\n11 - BJELANCA\nAGDA: \n22K. - ŠEĆERA\n11K. - VODE\nKORICA OD LIMUNA",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "SUHI KOLAČ",
+    "sastojci": "MARGARIN\n1 ČAŠA - ULJA\n1 -||- ŠEĆERA\n2 - JAJA\n2K - KISELOG VRHNJA\n2 ČAŠE - MLJEVENIH ORAHA\n0,5 - PECIVA\nBRAŠNA PO POTREBI \nŠEĆER U PRAHU ZA POSIPAT",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KOLAČ OD MALINA",
+    "sastojci": "3 - JAJA\n1 ČAŠA - JOGURTA\n1 -||- ŠEĆERA\n0,5 -||- ULJA\n1,5 -||- BRAŠNA\nVANILIN ŠEĆER I PECIVO\nFIL:\n0,5L - VODE\n2,5KG - MALINA\n250GR. - ŠEĆERA\n2 - PUDINGA OD MALINA ILI JAGODA\nŠLAG",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KREMASTI KOLAČ",
+    "sastojci": "5 - BJELANJAKA\nPUDING OD VANILIJE PRAH\n1K. - BRAŠNA\n5K. - ŠEĆERA\n3K. - ULJA\nPEĆI KORU NA PAPIRU PA ISJEĆI NA 3 DIJELA.\nKREMA:\n6 DL. - MLIJEKA\n5 - ŽUMANJAKA\n2 - PUDINGA OD VANILIJE\nPROKUHATI\n150GR. - ŠEĆERA U PRAHU\n2 - VANILINA ŠEĆERA\n2 DL. VRHNJA IZMJEŠANOG SASTAVIT SA PUDINGOM (MOŽE SE DODATI VOĆE ILI ISJECKANA ČOKOLADA),\nMOŽE I ODOZGO JOŠ JEDNO VRHNJE.",
+    "postupak": "",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "KOKOS KUGLICE",
+    "sastojci": "200 ML. - VRHNJA - DOBRO IZMIJEŠATI\nŠEĆERA PO ŽELJI\nDODATI NASJECKANI JAFA KEKS I PET KAŠIKA MLJEVENOG KEKSA. SVE KAŠIKOM SJEDINITI I PRAVITI KUGLICE, TE IH UVALJATI U KOKOS.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "SIRNICA NA TROKUTIĆE",
+    "sastojci": "1 - JUFKA\n3 - JAJA\n1Č - ULJA\n1Č - JOGURTA\n2 K - BRAŠNA\nPECIVO\nMALO SOLI\nSIR NA POČETKU I PRAVITI TROKUTIĆE.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ČOKOLADNI ROLAT",
+    "sastojci": "KREMA: \n2 ŠOLJICE - VODE\n9 KAŠIKA - ŠEĆERA \nDA PROKUHA \nDODATI ČOKOLADU I SJEDINITI. SKINUTI SA PEĆI I DODATI KAKAO (ZVEČEVO). SVE DOBRO IZMJEŠATI.\nKORA: \n8 - BJELANJAKA \n8 KAŠIKA - ŠEĆERA \n3 -||- BRAŠNA \nPECIVO I DODATI 4. KAŠIKE OVE ČOKO KREME\nFIL: \n8 - ŽUMANJAKA \n200 GR. - ŠEĆERA U PRAHU\nNA PARI (12 KAŠIKA) \nKADA SE OHLADI DODATI MARGARIN I SVE SASTAVITI SA ČOKO KREMOM.\nISPEČENU KORU ISJEĆI NA 3 DIJELA.",
+    "postupak": "",
+    "categoryId": "3"
+  },
+  {
+    "naziv": "HAVANA",
+    "sastojci": "1L - MLIJEKA \n2 ČAŠA - ŠEĆERA\nPROKUHATI PA U TO DODATI 30GR. ŽELATINA. KADA PROKLJUČA OHLADITI.\nIZMEŠATI 0,5L VRHNJA I SASTAVITI. PODIJELITI NA TRI DIJELA. U DVA STAVITI PO 150GR. PLAZME, A U TREĆI DIO VOĆE PO ŽELJI.\nKALUP OBLOŽITI PROVIDNOM FOLIJOM. PO FOLIJI POSUTI MALO PLAZME. REDATI SLOJ PO SLOJ. KADA KOLAČ OHLADI U FRIŽIDERU, OKRENUTI GAI I SKINUTI FOLIJU.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "NUTELA PLAZMA KOLAČ",
+    "sastojci": "200 GR. - MLJEVENE PLAZME\n125 GR. - MASLACA\n2 KAŠIKE - MEDA\n3 -||- NUTELE\nFIL:\n0,5L - SLATKE PAVLAKE\n200GR - MLIJEČNE ČOKOLADE\n200GR - BIJELE ČOKOLADE\n2 - ŠLAG KREME OD VANILIJE",
+    "postupak": "PLAZMU, MED I MASLAC IZMIKSATI I RASPOREDITI U KALUP, RUKOM. ZATIM PREMAZATI NUTELOM I STAVITI U FRIŽIDER DOK SE FIL NE PRIPREMI.\nU 250ML - VRHNJA IZMIKSANOG STAVITI ČOKOLADU MLIJEĚNU, A U PREOSTALO 250ML. BIJELU ČOKOLADU (ČOKOLADE OTOPITI NA PARI).\nKORU PREMAZATI BIJELIM FILOM POTOM CRNIM I NA KRAJU ŠLAG.",
+    "categoryId": "1"
+  },
+  {
+    "naziv": "TUFAHIJE",
+    "sastojci": "KUHATI:\n7 - JABUKA (ZLATNI DELIŠES)\nKUHATI:\n300GR. - ŠEĆERA \n1L - VODE\nKUHATI DOK SE JABUKE PRIPREME. JABUKE KUHATI 10MIN. PREVRTATI IH.\nOHLADENE FILOVATI.\n300GR. - MLJEVENIH ORAHA U KOJE TREBA DODATI MALO AGDE IZ JABUKA. \nODOZGO UKRASITI ŠLAGOM.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "MONTE",
+    "sastojci": "1. PUDING OD ČOKOLADE I DODATI ČOKOLADY TAMNU\n2. PUDING SLATKA PAVLAKA I DODATI BIJELU ČOKOLADU \nKADA SE MALO OHLADI DODATI PO 250ML.VRHNJA.\nVRHNJE NE TREBA MIJEŠATI NEGO TEČNO DODATI, ZATIM KAŠIKOM PROMIJEŠATI.\nISTOVREMEND SIPATI OBA PUDINGA U ZDJELICE.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "TORTA JUŽNI VJETAR",
+    "sastojci": "KORE:  (OVAKO 2X)\n5 - BJELJANAKA\n5 KAŠIKA - ŠEĆERA\n2 -||- BRAŠNA\n100 GR. - ORAHA\nMOŽE SE STAVITI PECIVO, A I NE MORA\nTREBA ISPEĆI 2 KORE. STAVITI U TEPSIJU I POPOLOVITI IH DA BUDU 4 KORE ILI ISPEĆI TRI U KALUPU ZA TORTU.\nFIL:\n600 ML. - MLIJEKA\n10 - ŽUMANACA\n10 KAŠIKA - ŠEĆERA\n100 ML. - MLIJEKA\nKADA MLIJEKO PROKUHA DODATI OVE SASTOJKE\n100 GR. - GUSTINA\n150GR - MLJEVENIH ORAHA\n200 GR. - MARGARINA\nU OHLAĐENO DODATI\nŠLAG OD ČOKOLADE NA KRAJU I POSUTI ORASICMA.",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "KREMA ZA TORTU",
+    "sastojci": "0,5L - MLIJEKA\n30G - GUSTINA\n3 - ŽUMANJKA\n130G - ŠEĆERA\n1 - VANILIN\n1 - PUDING OD VANILIJE\nPROKUHATI - KADA SE OHLADI DODATI VRHNJE.\n200ML - VRHNJA ZA KOLAČE",
+    "postupak": "",
+    "categoryId": "2"
+  },
+  {
+    "naziv": "SVEKRVINE OČI",
+    "sastojci": "500 GR. - SMOKVI \n100 GR. - MARGARINA \n250 ML. - VODE \n200 GR. - ŠEĆERA\nPROKUHATI PA DODATI ORAHE I KEKS.\n \n300 GR. - MLJEVENE PLAZME \n150 GR. - MLJEVENIH ORAHA (20 KAŠIKA)",
+    "postupak": "SMOKVE POTOPITI U MLAKU VODU DA MALO ODSTOJE. ZATIM IM OSJEĆI PETELJKE I PUNITI POLOVICOM ORAHA.\nKADA SE SMJESA OHLADI NA DLANU RASTANJITI I STAVITI SMOKVU, ZATIM SASTAVITI I OBLIKOVAT LOPTICU. POTOM IH UVALJATI U MLJEVENE ORAHE.",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "ĐEM OD JAGODA",
+    "sastojci": "1KG - JAGODA\n300GR. - ŠEĆERA\n1 KAŠIKA - LIMUNOVOG SOKA",
+    "postupak": "JAGODE OPRATI I ISJECKATI. KUHATI 15 MIN. ZATIM DODATI ŠEĆER I PONOVO KUHATI OD 20-30 MIN. PO ŽELJI. VREO ĐEM U VRELE GALONE.",
+    "categoryId": "5"
+  },
+  {
+    "naziv": "SOK OD JAGODA",
+    "sastojci": "2 KG - JAGODA\n300GR. - ŠEĆERA\n1 KAŠIČICA - LIMUNTUSA",
+    "postupak": "JAGODE STAVITI U ŠERPU SA ŠEĆEROM DA ODSTOJE 3H. SLOJ JAGODA, SLOJ ŠEĆERA. KADA ODSTOJE IZBLENDATI IH I PROCIJEDITI. ZATIM DODATI 1,5L. VODE I KUHATI 15.MIN. VREO SOK U VRELA FLAŠE (12 FLAŠA OD 200ML).",
+    "categoryId": "5"
+  },
+  {
+    "naziv": "PLAZMA KOCKE",
+    "sastojci": "KORA:\n6 - JAJA\n6 KAŠIKA - ŠEĆERA\n6 -|| - BRAŠNA\n3 -|| - KAKAO\n3 -|| - VODE\nPECIVO\nODVOJITI BJELANCA PA POSTEPENO DODAVATI ŽUMANCA, TE OSTALO. PEČENU KORU POPOLOVITI.\nFIL:\n700ML. - MLIJEKA\n120GR. - ŠEĆERA\n1 VANILIN\nPROKUHATI\n70GR. - GUSTINA\n200GR. - ČOKOLADE U VRELO\nKADA OHLADI DODATI 125GR. MARGARINA. PREMAZATI PO POLA KORE I POKLOPITI DRUGOM KOROM. OSTAVITI 1/3 PREMAZA KADA SE KOLAČ STEGNE ISJEĆI NA KOCKE. OKOLO IH PREMAZATI FILOM I UVALJATI U PLAZMU. ODOZGO ČOKOLADU.",
+    "postupak": "",
+    "categoryId": "6"
+  },
+  {
+    "naziv": "SOK OD GROŽĐA",
+    "sastojci": "OPRATI GROŽĐE I POKIDATI BOBICE.\nSTAVITI U ŠERPU I IZGNJEČITI.\nPRELITI VODOM, DA JE POTOPLJENO GROŽĐE (MALO VIŠE).\nSTAVITI DA KUHA POLA SATA. (KADA KUHA SKINUTI PJENU).\nPOTOM GA PROCIJEDITI.\nKADA SE PROCIJEDI IZMJERITI KOLIKO LITARA IMA, PA NA 1L SOKA STAVITI 300GR. ŠEĆERA.\nTO STAVITI SAMO DA PROKUHA I PUNITI U VRELE FLAŠE (VREO SOK). MOŽE SE DODATI I LIMUNTUS.",
+    "postupak": "",
+    "categoryId": "5"
+  },
+  {
+    "naziv": "KISALE KRASTAVICE",
+    "sastojci": "1KG - KRASTAVICA TREBA STAVITI\n1L. - VODE\n250 ML. - SIRĆETA\nPO 2 KAŠIKE SOLI I ŠEĆERA",
+    "postupak": "VODU, SIRĆE, SO I ŠEĆER PROKUHATI PA OHLADITI. ZATIM ZALITI NAPUNJENE TEGLE KRASTAVICA. POTOM IH DOBRO ZAVRNUTI I PROKUHATI TEGLE U DUBLJOJ ŠERPI. (SMJESA ZA 4 GALONA).",
+    "categoryId": "5"
+  },
+  {
+    "naziv": "PEČENE PAPRIKE U TEGLE",
+    "sastojci": "2 KG - CRVENIH PAPRIKA ISPEĆI U RENI I OGULITI. \nOGULJENE STAVITI U POSUDU I DODATI:\n100 ML. - SIRĆETA\n100 ML - ULJA (MASLINOVO)\nKAŠIKU SOLI\nPAR ČEHNI BIJELOG LUKA (NASJECKATI)\nTO OSTAVITI 1H DO 2H I NAPUNITI MALE TEGLE. POTOM TEGLE PASTERIZOVATI.",
+    "postupak": "",
+    "categoryId": "5"
+  }
+]
