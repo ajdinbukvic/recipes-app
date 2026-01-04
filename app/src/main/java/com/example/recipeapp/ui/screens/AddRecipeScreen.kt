@@ -4,8 +4,6 @@ import android.widget.Toast
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.*
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.verticalScroll
 import androidx.compose.material.Button
@@ -24,7 +22,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
-import androidx.compose.ui.unit.sp
 import androidx.navigation.NavController
 import com.example.recipeapp.model.Category
 import com.example.recipeapp.model.Recipe
@@ -40,22 +37,8 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
     var recipeCategoryId by remember { mutableStateOf<Long?>(null) }
     var expanded by remember { mutableStateOf(false) }
     var selectedCategory by remember { mutableStateOf<Category?>(null) }
-    val context = LocalContext.current  // Potrebno za Toast
+    val context = LocalContext.current
 
-    /*Column(modifier = Modifier.fillMaxSize().padding(8.dp)) {
-        OutlinedTextField(value = naziv, onValueChange = { naziv = it }, label = { Text("Naziv") }, modifier = Modifier.fillMaxWidth())
-        Spacer(modifier = Modifier.height(8.dp))
-        OutlinedTextField(value = sastojci, onValueChange = { sastojci = it }, label = { Text("Sastojci") }, modifier = Modifier.fillMaxWidth(), maxLines = 6)
-        Spacer(modifier = Modifier.height(8.dp))
-        OutlinedTextField(value = postupak, onValueChange = { postupak = it }, label = { Text("Postupak") }, modifier = Modifier.fillMaxWidth(), maxLines = 10)
-        Spacer(modifier = Modifier.height(12.dp))
-        Button(onClick = {
-            val r = Recipe(naziv = naziv, sastojci = sastojci, postupak = postupak)
-            vm.insert(r) { id -> navController.navigate("detail/$id") }
-        }) { Text("Spremi") }
-    }*/
-
-    // Ako je editId > 0, učitaj recept
     LaunchedEffect(editId) {
         if (editId > 0) {
             val r = vm.getByIdSuspend(editId)
@@ -69,21 +52,13 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
         }
     }
 
-    /*LaunchedEffect(categories) {
-        if (categories.isNotEmpty() && selectedCategory == null) {
-            selectedCategory = categories.first() // ili find { it.name == "Kolač" }
-        }
-    }*/
-
     LaunchedEffect(categories, recipeCategoryId) {
         if (categories.isNotEmpty()) {
 
             selectedCategory = when {
-                // EDIT MODE → pronađi kategoriju recepta
                 recipeCategoryId != null ->
                     categories.find { it.id == recipeCategoryId }
 
-                // ADD MODE → nema recepta, nema kategorije
                 else -> categories.first()
             }
         }
@@ -97,14 +72,12 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
             .verticalScroll(rememberScrollState())
     ) {
 
-        // Naslov
         Text(
             text = if (editId > 0) "Uredi recept" else "Dodaj novi recept",
             style = MaterialTheme.typography.h4,
             color = Color(0xFF2D0F4A),
             modifier = Modifier.padding(top = 36.dp, bottom = 16.dp)
         )
-        // Naziv
         OutlinedTextField(
             value = naziv,
             onValueChange = { naziv = it },
@@ -120,14 +93,13 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
         )
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Sastojci (veći text field)
-        OutlinedTextField(
+       OutlinedTextField(
             value = sastojci,
             onValueChange = { sastojci = it },
             label = { Text("Sastojci") },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(220.dp), // veći prostor za unos
+                .height(220.dp),
             maxLines = 10,
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 textColor = Color(0xFF311B92),
@@ -139,14 +111,13 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
         )
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Postupak (veći text field)
         OutlinedTextField(
             value = postupak,
             onValueChange = { postupak = it },
             label = { Text("Postupak") },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(220.dp), // još veći prostor
+                .height(220.dp),
             maxLines = 15,
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 textColor = Color(0xFF311B92),
@@ -157,14 +128,13 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
             )
         )
         Spacer(modifier = Modifier.height(16.dp))
-        // Napomena (malo veći text field)
         OutlinedTextField(
             value = napomena,
             onValueChange = { napomena = it },
             label = { Text("Napomena") },
             modifier = Modifier
                 .fillMaxWidth()
-                .height(120.dp), // malo veći prostor
+                .height(120.dp),
             maxLines = 15,
             colors = TextFieldDefaults.outlinedTextFieldColors(
                 textColor = Color(0xFF311B92),
@@ -189,8 +159,8 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
                     cursorColor = Color(0xFF311B92)
                 ),
                 modifier = Modifier
-                    .clickable { expanded = true } // klik samo na TextField
-                    .fillMaxWidth(), // fill samo unutar weight-a
+                    .clickable { expanded = true }
+                    .fillMaxWidth(),
                 trailingIcon = {
                     IconButton(onClick = { expanded = true }) {
                         Icon(Icons.Default.ArrowDropDown, contentDescription = null)
@@ -213,7 +183,6 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
             }
         }
         Spacer(modifier = Modifier.height(16.dp))
-        // Dugme centrirano i prošireno horizontalno
         Button(
             onClick = {
                 if (selectedCategory == null) {
@@ -244,7 +213,7 @@ fun AddRecipeScreen(vm: RecipeViewModel, navController: NavController, editId: L
                 Toast.makeText(context, "Recept spremljen", Toast.LENGTH_SHORT).show()
                 navController.popBackStack()
             },
-            modifier = Modifier.fillMaxWidth() // dugme preko cijele širine
+            modifier = Modifier.fillMaxWidth()
         ) {
             Text(if (editId > 0) "Spremi promjene" else "Spremi novi recept")
         }

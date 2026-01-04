@@ -28,13 +28,6 @@ fun FavoritesScreen(vm: RecipeViewModel, navController: NavController) {
     vm.loadFavorites()
     val recipes = vm.favRecipes.collectAsState()
 
-    /*Column(modifier = Modifier.fillMaxSize().background(Color(0xFFEDE7F6)).padding(top = 48.dp, bottom = 12.dp, start = 12.dp, end = 12.dp)) {
-        recipes.value.forEach { r ->
-            RecipeRow(r.naziv, onClick = { navController.navigate("detail/${r.id}") })
-        }
-    }*/
-
-
 
     Column(
         modifier = Modifier
@@ -43,15 +36,13 @@ fun FavoritesScreen(vm: RecipeViewModel, navController: NavController) {
             .padding(12.dp)
     ) {
 
-        // Naslov
         Text(
             text = "Omiljeni recepti (${recipes.value.size})",
             style = MaterialTheme.typography.h4,
             color = Color(0xFF2D0F4A),
             modifier = Modifier.padding(top = 36.dp, bottom = 16.dp)
         )
-        var recipeToDelete by remember { mutableStateOf<Recipe?>(null) } // state za dijalog
-        // Lista
+        var recipeToDelete by remember { mutableStateOf<Recipe?>(null) }
         LazyColumn(
             modifier = Modifier.fillMaxSize(),
         ) {
@@ -62,14 +53,12 @@ fun FavoritesScreen(vm: RecipeViewModel, navController: NavController) {
                     onClick = { navController.navigate("detail/${r.id}") },
                     onToggleFavorite = { vm.toggleFavorite(r.id) },
                     onEdit = {
-                        // navigacija na edit stranicu
                         navController.navigate("edit/${r.id}")
                     },
                     onDelete = { recipeToDelete = r }
                 )
             }
         }
-        // Dijalog se prikazuje **izvan RecipeRow**, direktno u Composable kontekstu
         recipeToDelete?.let { r ->
             AlertDialog(
                 onDismissRequest = { recipeToDelete = null },

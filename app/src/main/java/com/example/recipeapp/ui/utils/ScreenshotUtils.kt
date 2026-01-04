@@ -11,17 +11,12 @@ import java.io.File
 import java.io.FileOutputStream
 import androidx.core.graphics.createBitmap
 import kotlinx.coroutines.Dispatchers
-
 import android.content.ContentValues
 import android.os.Build
-import android.os.Environment
 import android.provider.MediaStore
 import android.widget.Toast
 import androidx.compose.ui.platform.ComposeView
-import androidx.compose.ui.unit.Density
-import androidx.compose.ui.unit.LayoutDirection
 import androidx.core.graphics.scale
-import androidx.core.view.drawToBitmap
 import kotlinx.coroutines.withContext
 import java.io.OutputStream
 
@@ -62,26 +57,22 @@ suspend fun captureLongScreenshot(
     widthPx: Int = 1080
 ) {
     withContext(Dispatchers.Main) {
-        // Napravi offscreen ComposeView
         val composeView = ComposeView(context).apply {
             setContent {
                 content()
             }
         }
 
-        // Measure & layout bez vertikalnog ograničenja
         composeView.measure(
             android.view.View.MeasureSpec.makeMeasureSpec(widthPx, android.view.View.MeasureSpec.EXACTLY),
             android.view.View.MeasureSpec.UNSPECIFIED
         )
         composeView.layout(0, 0, composeView.measuredWidth, composeView.measuredHeight)
 
-        // Renderuj u bitmap dužine sadržaja
         val bitmap = createBitmap(composeView.measuredWidth, composeView.measuredHeight)
         val canvas = android.graphics.Canvas(bitmap)
         composeView.draw(canvas)
 
-        // Spremi u galeriju
         val success = saveBitmapToGallery(context, bitmap)
         Toast.makeText(
             context,
@@ -108,41 +99,13 @@ fun saveBitmapToGallery(context: Context, bitmap: Bitmap): Boolean {
             java.io.FileOutputStream(file)
         }
 
-        fos?.use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }  // Spremi bitmap
-        true  // Ako nije bacio exception, vraća true
-    } catch (e: Exception) {
-        e.printStackTrace()
-        false
-    }
-}
-
-// Funkcija za spremanje u galeriju
-/*fun saveBitmapToGallery(context: Context, bitmap: Bitmap): Boolean {
-    return try {
-        val filename = "recept_${System.currentTimeMillis()}.png"
-        val fos = if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.Q) {
-            val values = ContentValues().apply {
-                put(MediaStore.Images.Media.DISPLAY_NAME, filename)
-                put(MediaStore.Images.Media.MIME_TYPE, "image/png")
-                put(MediaStore.Images.Media.RELATIVE_PATH, Environment.DIRECTORY_PICTURES)
-            }
-            val uri = context.contentResolver.insert(
-                MediaStore.Images.Media.EXTERNAL_CONTENT_URI, values
-            )!!
-            context.contentResolver.openOutputStream(uri)
-        } else {
-            val file = File(Environment.getExternalStoragePublicDirectory(Environment.DIRECTORY_PICTURES), filename)
-            FileOutputStream(file)
-        }
-        fos?.use {
-            bitmap.compress(Bitmap.CompressFormat.PNG, 100, it)
-        }
+        fos?.use { bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) }
         true
     } catch (e: Exception) {
         e.printStackTrace()
         false
     }
-}*/
+}
 
 fun resizeBitmap(bitmap: Bitmap, maxSize: Int = 1080): Bitmap {
     val width = bitmap.width

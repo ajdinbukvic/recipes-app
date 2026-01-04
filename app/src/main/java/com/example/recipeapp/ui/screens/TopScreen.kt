@@ -10,9 +10,6 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
-import androidx.compose.foundation.lazy.LazyColumn
-import androidx.compose.foundation.lazy.items
-import androidx.compose.foundation.lazy.itemsIndexed
 import androidx.compose.foundation.rememberScrollState
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.foundation.verticalScroll
@@ -50,12 +47,6 @@ fun TopScreen(vm: RecipeViewModel, navController: NavController) {
     val lastAddedRecipes by vm.lastAdded.collectAsState(initial = emptyList())
     val recentlyViewedRecipes by vm.recentlyViewed.collectAsState(initial = emptyList())
 
-    /*Column(modifier = Modifier.fillMaxSize().background(Color(0xFFEDE7F6)).padding(top = 48.dp, bottom = 12.dp, start = 12.dp, end = 12.dp)) {
-        recipes.value.forEach { r ->
-            RecipeRow("${r.naziv} (${r.posjete})", onClick = { navController.navigate("detail/${r.id}") })
-        }
-    }*/
-
     Column(
         modifier = Modifier
             .fillMaxSize()
@@ -64,7 +55,6 @@ fun TopScreen(vm: RecipeViewModel, navController: NavController) {
             .verticalScroll(rememberScrollState())
     ) {
 
-        // Naslov
         Text(
             text = "Statistika recepata",
             style = MaterialTheme.typography.h4,
@@ -100,46 +90,6 @@ fun TopScreen(vm: RecipeViewModel, navController: NavController) {
         )
 
         Spacer(modifier = Modifier.height(64.dp))
-        //var recipeToDelete by remember { mutableStateOf<Recipe?>(null) } // state za dijalog
-        // Lista
-        /*LazyColumn(
-            modifier = Modifier.fillMaxSize(),
-        ) {
-            itemsIndexed(recipes.value) { index, r ->
-                RecipeRow(
-                    title = "${index + 1}. ${r.naziv} (${r.posjete})",
-                    isFavorite = r.favorit,
-                    onClick = { navController.navigate("detail/${r.id}") },
-                    onToggleFavorite = { vm.toggleFavorite(r.id) },
-                    onEdit = {
-                        // navigacija na edit stranicu
-                        navController.navigate("edit/${r.id}")
-                    },
-                    onDelete = { recipeToDelete = r }
-                )
-            }
-        }*/
-        // Dijalog se prikazuje **izvan RecipeRow**, direktno u Composable kontekstu
-        /*recipeToDelete?.let { r ->
-            AlertDialog(
-                onDismissRequest = { recipeToDelete = null },
-                title = { Text("Brisanje recepta") },
-                text = { Text("Jeste li sigurni da želite obrisati '${r.naziv}'?") },
-                confirmButton = {
-                    TextButton(onClick = {
-                        vm.delete(r)
-                        recipeToDelete = null
-                    }) {
-                        Text("Da")
-                    }
-                },
-                dismissButton = {
-                    TextButton(onClick = { recipeToDelete = null }) {
-                        Text("Ne")
-                    }
-                }
-            )
-        }*/
     }
 }
 
@@ -149,10 +99,10 @@ fun AccordionSection(
     items: List<Recipe>,
     navController: NavController,
     vm: RecipeViewModel,
-    formatItemText: (Recipe, Int) -> String // callback koji formatira tekst za svaki recept
+    formatItemText: (Recipe, Int) -> String
 ) {
     var expanded by remember { mutableStateOf(false) }
-    var recipeToDelete by remember { mutableStateOf<Recipe?>(null) } // state za dijalog
+    var recipeToDelete by remember { mutableStateOf<Recipe?>(null) }
     Column(
         modifier = Modifier
             .fillMaxWidth()
@@ -199,7 +149,7 @@ fun AccordionSection(
                         onEdit = { navController.navigate("edit/${r.id}") },
                         onDelete = { recipeToDelete = r }
                     )
-                    Spacer(modifier = Modifier.height(4.dp)) // razmak između kartica
+                    Spacer(modifier = Modifier.height(4.dp))
                 }
             }
         }

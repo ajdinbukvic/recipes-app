@@ -4,8 +4,6 @@ import androidx.room.Database
 import androidx.room.Room
 import androidx.room.RoomDatabase
 import android.content.Context
-import androidx.room.migration.Migration
-import androidx.sqlite.db.SupportSQLiteDatabase
 import com.example.recipeapp.model.Category
 import com.example.recipeapp.model.Recipe
 import com.example.recipeapp.model.RecipeImage
@@ -30,18 +28,11 @@ abstract class AppDatabase : RoomDatabase() {
                     AppDatabase::class.java,
                     "recipe_db"
                 )
-                    .fallbackToDestructiveMigration(false) // ⬅⬅ KLJUČNO
+                    .fallbackToDestructiveMigration(false)
                     .build()
                 INSTANCE = instance
                 instance
             }
         }
-        /*val MIGRATION_2_3 = object : Migration(2, 3) {
-            override fun migrate(db: SupportSQLiteDatabase) {
-                db.execSQL(
-                    "ALTER TABLE recipes ADD COLUMN napomena TEXT DEFAULT ''"
-                )
-            }
-        }*/
     }
 }

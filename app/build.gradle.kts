@@ -59,7 +59,6 @@ dependencies {
     implementation("androidx.compose.ui:ui-tooling-preview:1.10.0")
     implementation("androidx.navigation:navigation-compose:2.9.6")
 
-    // Room
     implementation("androidx.room:room-runtime:2.8.4")
     implementation("androidx.room:room-ktx:2.8.4")
     //noinspection KaptUsageInsteadOfKsp
@@ -67,18 +66,14 @@ dependencies {
 
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.10.0")
     implementation("androidx.datastore:datastore-preferences:1.2.0")
-    // Optional - for image loading if needed
     implementation("io.coil-kt:coil-compose:2.7.0")
-    // For Kotlin coroutines Flow support
     implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.10.2")
 
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.9.0")
     implementation("androidx.compose.material3:material3:1.3.0")
     implementation("androidx.compose.material:material-icons-extended:1.4.3")
     implementation("androidx.compose.foundation:foundation:1.6.0")
-    //implementation("com.google.accompanist:accompanist-pager:0.36.0")
     implementation("com.google.accompanist:accompanist-pager-indicators:0.36.0")
-    //implementation("com.google.accompanist:accompanist-gesture:0.31.5-beta")
     implementation("com.google.code.gson:gson:2.10.1")
 
 }
@@ -89,4 +84,3 @@ allprojects {
         mavenCentral()
     }
 }
-

@@ -1,12 +1,10 @@
 package com.example.recipeapp.ui.utils
 
-import android.graphics.BitmapFactory
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.Image
 import androidx.compose.foundation.background
 import androidx.compose.foundation.gestures.detectTapGestures
 import androidx.compose.foundation.gestures.detectTransformGestures
-import androidx.compose.foundation.gestures.detectVerticalDragGestures
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.padding
@@ -18,10 +16,8 @@ import androidx.compose.material.IconButton
 import androidx.compose.material.Text
 import androidx.compose.material.TextButton
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.filled.Delete
 import androidx.compose.material.icons.filled.Download
 import androidx.compose.material3.Icon
-import androidx.compose.material3.SegmentedButtonDefaults.Icon
 import androidx.compose.runtime.Composable
 import androidx.compose.runtime.LaunchedEffect
 import androidx.compose.runtime.getValue
@@ -41,8 +37,6 @@ import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.window.Dialog
 import com.example.recipeapp.model.RecipeImage
-import com.google.accompanist.pager.HorizontalPagerIndicator
-import com.google.accompanist.pager.rememberPagerState
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable
@@ -76,10 +70,8 @@ fun FullScreenImagePager(
                 Box(
                     modifier = Modifier
                         .fillMaxSize()
-                        // Ovdje samo za gestures unutar Box-a
                         .pointerInput(Unit) {
                             detectTransformGestures { _, pan, zoom, _ ->
-                                // Ako zoom > 1, dozvoli pan
                                 if (zoom != 1f || scale > 1f) {
                                     scale = (scale * zoom).coerceIn(1f, 5f)
                                     offset += pan
@@ -87,14 +79,12 @@ fun FullScreenImagePager(
                             }
                         }
                 ) {
-                    //val bitmap = decodeSampledBitmapFromFile(image.imagePath, reqWidth = 800, reqHeight = 800)
                     val bitmap = decodeBitmapWithRotation(
                         path = image.imagePath,
                         reqWidth = 1200,
                         reqHeight = 1600
                     )
                     Image(
-                        //bitmap = BitmapFactory.decodeFile(image.imagePath).asImageBitmap(),
                         bitmap = bitmap.asImageBitmap(),
                         contentDescription = null,
                         modifier = Modifier
@@ -115,7 +105,6 @@ fun FullScreenImagePager(
                     )
                 }
             }
-            // ===== DELETE ICON (TOP RIGHT) =====
             if (onSave != null) {
                 IconButton(
                     onClick = {
@@ -134,7 +123,6 @@ fun FullScreenImagePager(
                 }
             }
     }
-        // ===== DELETE CONFIRM DIALOG =====
         if (showSaveDialog) {
             AlertDialog(
                 onDismissRequest = { showSaveDialog = false },
@@ -165,32 +153,6 @@ fun FullScreenImagePager(
         }
     }
 }
-            /*HorizontalPagerIndicator(
-                pagerState = pagerStatee,
-                modifier = Modifier
-                    //.align(Alignment.BottomCenter)
-                    .padding(16.dp),
-                activeColor = Color.White,
-                inactiveColor = Color.Gray,
-            )
-            // Delete button (ako je prosleđeno)
-            if (onSave != null) {
-                IconButton(
-                    onClick = { onSave(images[pagerState.currentPage]) },
-                    modifier = Modifier
-                        //.align(Alignment.TopEnd)
-                        .padding(16.dp)
-                ) {
-                    Icon(
-                        imageVector = Icons.Default.Delete,
-                        contentDescription = "Obriši sliku",
-                        tint = Color.White
-                    )
-                }
-            }*/
-       //}
-    //}
-//
 
 @Composable
 fun ImageOptionsDialog(

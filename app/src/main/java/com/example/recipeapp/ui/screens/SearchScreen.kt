@@ -18,7 +18,6 @@ import androidx.compose.material.TextButton
 import androidx.compose.material.TextFieldDefaults
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.Close
-import androidx.compose.material3.SegmentedButtonDefaults.Icon
 import androidx.compose.runtime.*
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.Alignment
@@ -26,7 +25,6 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.platform.LocalFocusManager
-import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.unit.dp
 import androidx.navigation.NavController
 import com.example.recipeapp.model.Category
@@ -37,32 +35,17 @@ import com.example.recipeapp.viewmodel.RecipeViewModel
 fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
     var query by remember { mutableStateOf("") }
     val recipes = vm.searchRecipes.collectAsState()
-    val context = LocalContext.current
     val focusManager = LocalFocusManager.current
-    var hasSearched by remember { mutableStateOf(false) } // prati da li je pretraga izvršena
+    var hasSearched by remember { mutableStateOf(false) }
     var selectedCategory by remember { mutableStateOf<Category?>(null) }
     var isFilterActive by remember { mutableStateOf(false) }
-    //val categories by vm.categories.collectAsState() // lista svih kategorija
     val categories = vm.categoriesWithCount.collectAsState()
-    /*Column(modifier = Modifier.fillMaxSize().background(Color(0xFFEDE7F6)).padding(top = 48.dp, bottom = 12.dp, start = 12.dp, end = 12.dp)) {
-        OutlinedTextField(value = query, onValueChange = { query = it }, label = { Text("Pretraga") }, modifier = Modifier.fillMaxWidth())
-        Spacer(modifier = Modifier.height(8.dp))
-        Button(onClick = { vm.search(query) }) { Text("Traži") }
-        Spacer(modifier = Modifier.height(12.dp))
-        val recipes = vm.searchRecipes.collectAsState()
-        Column {
-            recipes.value.forEach { r ->
-                RecipeRow(r.naziv, onClick = { navController.navigate("detail/${r.id}") })
-            }
-        }
-    }*/
     Column(
         modifier = Modifier
             .fillMaxSize()
             .background(Color(0xFFE1BEE7))
             .padding(12.dp)
     ) {
-        // Naslov
         Text(
             text = "Pretraga recepata (${recipes.value.size})",
             style = MaterialTheme.typography.h4,
@@ -70,7 +53,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
             modifier = Modifier.padding(top = 36.dp, bottom = 16.dp)
         )
 
-        // Row za TextField + X dugme
         Row(modifier = Modifier.fillMaxWidth(), verticalAlignment = Alignment.CenterVertically) {
             OutlinedTextField(
                 value = query,
@@ -93,7 +75,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                         hasSearched = false
                         focusManager.clearFocus()
                     },
-                    //modifier = Modifier.align(Alignment.CenterEnd as Alignment.Vertical) // <--- Ovdje
                 ) {
                     Icon(
                         imageVector = Icons.Default.Close,
@@ -106,12 +87,11 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
 
         Spacer(modifier = Modifier.height(8.dp))
 
-        // Dugme Traži
         Button(
             onClick = {
                 if (query.isBlank()) {
                     focusManager.clearFocus()
-                    return@Button // ⬅ ništa se ne dešava
+                    return@Button
                 }
 
                 vm.search(query)
@@ -125,7 +105,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
 
         Spacer(modifier = Modifier.height(12.dp))
 
-        // Row za dropdown kategorija + dugme filtriraj/resetuj
         if (categories.value.isNotEmpty()) {
             Row(
                 modifier = Modifier.fillMaxWidth(),
@@ -138,8 +117,8 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                         value = selectedCategory?.name ?: "Odaberi kategoriju",
                         onValueChange = {},
                         modifier = Modifier
-                            .clickable { expanded = true } // klik samo na TextField
-                            .fillMaxWidth(), // fill samo unutar weight-a
+                            .clickable { expanded = true }
+                            .fillMaxWidth(),
                         enabled = false,
                         colors = TextFieldDefaults.outlinedTextFieldColors(
                             textColor = Color(0xFF311B92),
@@ -151,7 +130,7 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                     DropdownMenu(
                         expanded = expanded,
                         onDismissRequest = { expanded = false },
-                        modifier = Modifier.fillMaxWidth() // dropdown može ići preko cijelog ekrana
+                        modifier = Modifier.fillMaxWidth()
                     ) {
                         categories.value.forEach { cat ->
                             DropdownMenuItem(
@@ -174,7 +153,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                 Button(onClick = {
                     focusManager.clearFocus()
                     if (isFilterActive) {
-                        // Resetuj filter
                         selectedCategory = null
                         isFilterActive = false
 
@@ -184,7 +162,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                             vm.clearSearchResults()
                         }
                     } else {
-                        // Primijeni filter samo ako je odabrana kategorija
                         selectedCategory?.let {
                             vm.filterByCategory(it.id)
                             isFilterActive = true
@@ -195,10 +172,9 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                 }
             }
         }
-        Spacer(modifier = Modifier.height(12.dp)) // ovdje biraš visinu
+        Spacer(modifier = Modifier.height(12.dp))
         val recipes = vm.searchRecipes.collectAsState()
-        var recipeToDelete by remember { mutableStateOf<Recipe?>(null) } // state za dijalog
-        // Prikaz rezultata ili poruke "Nema rezultata"
+        var recipeToDelete by remember { mutableStateOf<Recipe?>(null) }
         if (recipes.value.isEmpty()) {
             if (hasSearched || isFilterActive) {
                 Box(modifier = Modifier.fillMaxSize(), contentAlignment = Alignment.Center) {
@@ -218,7 +194,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                         onClick = { navController.navigate("detail/${r.id}") },
                         onToggleFavorite = { vm.toggleFavorite(r.id) },
                         onEdit = {
-                            // navigacija na edit stranicu
                             navController.navigate("edit/${r.id}")
                         },
                         onDelete = { recipeToDelete = r }
@@ -226,7 +201,6 @@ fun SearchScreen(vm: RecipeViewModel, navController: NavController) {
                 }
             }
         }
-        // Dijalog se prikazuje **izvan RecipeRow**, direktno u Composable kontekstu
         recipeToDelete?.let { r ->
             AlertDialog(
                 onDismissRequest = { recipeToDelete = null },

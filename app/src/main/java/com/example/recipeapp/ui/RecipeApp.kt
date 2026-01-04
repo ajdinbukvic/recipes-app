@@ -43,7 +43,6 @@ class RecipeApp : Application() {
                         .bufferedReader()
                         .use { it.readText() }
 
-                    // Deserijalizacija i popunjavanje default vrijednosti
                     val recipes: List<Recipe> = Gson().fromJson(json, Array<Recipe>::class.java)
                         .map { r ->
                             r.copy(

@@ -1,9 +1,5 @@
-<resources xmlns:tools="http://schemas.android.com/tools">
+<resources>
     <style name="Theme.RecipeApp" parent="android:Theme.Material.Light.NoActionBar">
-        <!-- Boja za splash screen -->
-        <item name="android:windowSplashScreenBackground">@color/purple_800</item>
-        <!-- Ikona u sredini splash screena -->
-        <item name="android:windowSplashScreenAnimatedIcon">@drawable/ic_launcher</item>
-        <item name="android:windowSplashScreenIconBackgroundColor">@color/purple_800</item>
+        <item name="android:statusBarColor">@color/purple_800</item>
     </style>
 </resources>

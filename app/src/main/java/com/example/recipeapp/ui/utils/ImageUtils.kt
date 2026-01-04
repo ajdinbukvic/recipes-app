@@ -30,13 +30,12 @@ fun saveImageToRecipeFolder(
     val file = File(dir, "img_${System.currentTimeMillis()}.png")
 
     FileOutputStream(file).use {
-        bitmap.compress(Bitmap.CompressFormat.PNG, 100, it) // PNG je lossless
+        bitmap.compress(Bitmap.CompressFormat.PNG, 100, it)
     }
 
     return file.absolutePath
 }
 
-// Funkcija za smanjivanje bitmape za prikaz
 fun decodeSampledBitmapFromFile(
     filePath: String,
     reqWidth: Int,

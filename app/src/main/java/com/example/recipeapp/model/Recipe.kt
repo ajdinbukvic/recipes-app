@@ -23,7 +23,7 @@ data class Recipe(
     val naziv: String,
     @ColumnInfo(defaultValue = "''") val sastojci: String = "",
     @ColumnInfo(defaultValue = "''") val postupak: String = "",
-    @ColumnInfo(defaultValue = "''") val napomena: String = "", // <- ovo
+    @ColumnInfo(defaultValue = "''") val napomena: String = "",
     val posjete: Int = 0,
     val favorit: Boolean = false,
     val createdAt: Long = System.currentTimeMillis(),

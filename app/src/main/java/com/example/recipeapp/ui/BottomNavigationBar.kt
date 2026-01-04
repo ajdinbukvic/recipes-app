@@ -4,7 +4,6 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.navigationBarsPadding
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
-import androidx.compose.material.icons.automirrored.filled.List
 import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
@@ -24,23 +23,10 @@ fun BottomNavigationBar(navController: NavHostController) {
     BottomNavigation(
     modifier = Modifier
         .fillMaxWidth()
-        .navigationBarsPadding() // ovo dodaje padding ispod tipki
+        .navigationBarsPadding()
     ) {
         val navBackStackEntry = navController.currentBackStackEntryAsState()
         val currentRoute = navBackStackEntry.value?.destination?.route
-        /*items.forEach { screen ->
-            BottomNavigationItem(
-                icon = { /* add icons if you want */ },
-                label = { Text(screen.route) },
-                selected = currentRoute == screen.route,
-                onClick = { navController.navigate(screen.route) {
-                    // avoid multiple copies on stack
-                    popUpTo(navController.graph.startDestinationId) { saveState = true }
-                    launchSingleTop = true
-                    restoreState = true
-                } }
-            )
-        }*/
         items.forEach { screen ->
             val icon = when(screen) {
                 Screen.All -> Icons.Default.List
@@ -48,7 +34,7 @@ fun BottomNavigationBar(navController: NavHostController) {
                 Screen.Favorites -> Icons.Default.Favorite
                 Screen.Top -> Icons.Default.Star
                 Screen.Add -> Icons.Default.Add
-                else -> Icons.Default.Home // fallback
+                else -> Icons.Default.Home
             }
 
             BottomNavigationItem(
@@ -61,7 +47,7 @@ fun BottomNavigationBar(navController: NavHostController) {
                         restoreState = true
                     }
                 },
-                alwaysShowLabel = false // sakrije label ispod ikone
+                alwaysShowLabel = false
             )
         }
     }

@@ -27,18 +27,6 @@ class RecipeRepository(private val dao: RecipeDao) {
     fun getRecentlyViewed(limit: Int): Flow<List<Recipe>> = dao.getRecentlyViewed(limit)
     suspend fun markViewed(id: Long, time: Long = System.currentTimeMillis()) = dao.markViewed(id, time);
 
-    /*fun getAllSorted(sortType: SortType): Flow<List<Recipe>> {
-        return when (sortType) {
-            SortType.DEFAULT -> dao.getAll()
-            SortType.AZ -> dao.getAllSortedAZ()
-            SortType.ZA -> dao.getAllSortedZA()
-            SortType.MOST_VIEWED -> dao.getMostViewed()
-            SortType.NEWEST -> dao.getNewest()
-            SortType.LAST_VIEWED -> dao.getLastViewed()
-            SortType.FAVORITES_FIRST -> dao.getFavoritesFirst()
-        }
-    }*/
-
     fun getAllSorted(sortType: SortType): Flow<List<Recipe>> {
         return dao.getAll().map { list ->
             when (sortType) {
